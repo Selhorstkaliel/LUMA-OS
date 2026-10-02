@@ -13,11 +13,13 @@ Atualizado: 2026-10-01.
 | 7 — Segurança e atualização | **APROVADA** — E7-01..05 PASSOU; `luma-firewall`; execução limpa 29/29 com 0.6.1 (`docs/evidence/etapa7/final/`) |
 | 8 — Imagem live | **APROVADA** — ISO 0.6.1 (visual dos mockups): boot com Secure Boot, 19/19; repetido na ISO 0.7.2: 20/20 (`docs/evidence/etapa8/iso-0.7.2/`); diferenças entre builds explicadas; sem alegação de reprodutibilidade bit a bit |
 | 9 — Instalação e recuperação | **APROVADA (na VM)** — ISO 0.7.2: normal 66/66 e disco cifrado 42/42; instalação sem internet, boot sem ISO com Secure Boot, login, atualização, recuperação pela ISO. Risco aberto: 1 fechamento do Calamares não reproduzido. Não testado: dual boot, particionamento manual, hardware real (ver TESTS.md). Não usar o instalador fora de VM por enquanto |
-| 6 — Aplicativos Windows | **EM ANDAMENTO, SUSPENSA em 2026-10-01** (usuário pediu arquivar o projeto no pendrive) — decisões do usuário registradas (só Wine do Debian; `i386` habilitado; Notepad++ 8.7, 7-Zip 24.09, IrfanView 4.75 no lugar da 4.67); pacote `luma-windows` 0.8.0 escrito; critérios em TESTS.md ainda PENDENTES. Ver "Etapa 6: onde parou" |
+| 6 — Aplicativos Windows | **EM ANDAMENTO, SUSPENSA em 2026-10-01** (projeto encerrado pelo usuário) — decisões do usuário registradas (só Wine do Debian; `i386` habilitado; Notepad++ 8.7, 7-Zip 24.09, IrfanView 4.75 no lugar da 4.67); pacote `luma-windows` 0.8.0 escrito; critérios em TESTS.md ainda PENDENTES. Ver "Etapa 6: onde parou" |
 | demais | NÃO INICIADA |
 
-## Arquivamento no pendrive: pedido, ainda NÃO feito (2026-10-01)
-O usuário pediu mover o repositório e o laboratório (distribuição WSL "Debian" inteira, ~35 GB usados, disco virtual de 59 GB em `C:`) para o pendrive e apagar do PC. A primeira tentativa falhou: o pendrive (E:, NTFS, 57,6 GB) sumiu do sistema cerca de 1 minuto depois do início da cópia (erro 0x80070015, dispositivo não pronto). **Nada foi apagado do PC.** Só apagar depois de cópia conferida.
+## Projeto encerrado pelo usuário em 2026-10-01
+O usuário decidiu parar o projeto e pediu para apagar tudo do PC. Depois deste commit foram apagados: a distribuição WSL "Debian" (laboratório inteiro: ISO 0.7.2, VMs, pacotes `.deb`, instaladores de teste, segredos do laboratório) e a pasta local do repositório. **Este repositório no GitHub é a única cópia do código, da documentação e das evidências.** A ISO e as VMs não foram guardadas: a tentativa de copiá-las para um pendrive falhou três vezes por erro de disco do próprio pendrive.
+
+Para retomar: clonar o repositório, recriar o laboratório (`scripts/lab/lab.sh install`, ~1 h), reconstruir pacotes e ISO (`scripts/build/build-debs.sh`, `scripts/build/build-iso.sh`, ~45 min). O estado de cada etapa está na tabela acima; a etapa 6 ficou no meio.
 
 ## Etapa 6: onde parou
 - Feito: critérios registrados em TESTS.md; instaladores oficiais baixados (em `/srv/luma-lab/fixtures/windows` dentro do laboratório) com SHA-256 conferido; pacote `luma-windows` (lançador, associação de `.exe`/`.msi`, aviso de primeiro uso, recusa como root, erro para arquivo inválido) construído e instalado na VM.

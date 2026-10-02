@@ -236,7 +236,7 @@ Para cada um: instalar, abrir, função principal, desinstalar. Só o que passar
 
 Fora do critério: jogos e aplicativos que dependem de GPU, anti-cheat, drivers, aplicativos da Microsoft Store.
 
-Situação em 2026-10-01: etapa suspensa antes dos testes (usuário pediu arquivar o projeto no pendrive); todos os critérios continuam PENDENTES. IrfanView 4.67 não existe mais no servidor oficial (`irfanview.info/files/` só entrega 4.75 e 4.76); escolhida a 4.75, a mais próxima.
+Situação em 2026-10-01: etapa suspensa antes dos testes (projeto encerrado pelo usuário); todos os critérios continuam PENDENTES. IrfanView 4.67 não existe mais no servidor oficial (`irfanview.info/files/` só entrega 4.75 e 4.76); escolhida a 4.75, a mais próxima.
 
 | Instalador | Origem | SHA-256 |
 |---|---|---|
