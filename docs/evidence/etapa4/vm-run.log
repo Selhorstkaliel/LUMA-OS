@@ -1,0 +1,7 @@
+[lab] VM iniciando; SSH 127.0.0.1:2222; VNC 127.0.0.1:5900. Processo em primeiro plano.
+[lab] VM iniciando; SSH 127.0.0.1:2222; VNC 127.0.0.1:5900. Processo em primeiro plano.
+[lab] VM iniciando; SSH 127.0.0.1:2222; VNC 127.0.0.1:5900. Processo em primeiro plano.
+[W][17:18:34.779946] pw.conf      | [          conf.c: 1182 try_load_conf()] can't load config client.conf: No such file or directory
+[E][17:18:34.781867] pw.conf      | [          conf.c: 1215 pw_conf_load_conf_for_context()] can't load config client.conf: No such file or directory
+[lab] VM iniciando; SSH 127.0.0.1:2222; VNC 127.0.0.1:5900. Processo em primeiro plano.
+[lab] VM iniciando; SSH 127.0.0.1:2222; VNC 127.0.0.1:5900. Processo em primeiro plano.

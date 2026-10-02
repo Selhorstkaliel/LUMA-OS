@@ -1,0 +1,21 @@
+# Área de trabalho e idioma
+task-kde-desktop
+task-brazilian-portuguese
+task-brazilian-portuguese-desktop
+task-brazilian-portuguese-kde-desktop
+# Instalador: configuração Luma em config/includes.chroot/etc/calamares (decisão 0006)
+calamares
+calamares-settings-debian
+# Instalação sem internet: o instalador executa "apt-get install grub-efi" (e cryptsetup-initramfs quando
+# o disco é cifrado) no sistema copiado. Sem estes pacotes já na imagem, ele dependia da rede para o
+# sistema instalado ter carregador de boot (constatado na etapa 9). Imagem somente UEFI (decisão 0005).
+grub-efi
+grub-efi-amd64-signed
+shim-signed
+efibootmgr
+cryptsetup-initramfs
+# hwclock: o instalador grava a hora no relógio da máquina (ausente na base, falhava em silêncio)
+util-linux-extra
+# Integração com máquinas virtuais: só ativos quando há canal virtio/SPICE; inertes em hardware real
+qemu-guest-agent
+spice-vdagent

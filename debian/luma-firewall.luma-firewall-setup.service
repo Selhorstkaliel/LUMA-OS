@@ -1,0 +1,13 @@
+[Unit]
+Description=Luma: política de firewall padrão (aplicada uma vez)
+Documentation=file:/usr/share/doc/luma-firewall/README.Debian
+ConditionPathExists=!/var/lib/luma-firewall/aplicado
+Wants=ufw.service
+After=ufw.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/luma-firewall-setup
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,903 @@
+=== START CALAMARES 3.3.14
+2026-10-01 - 17:20:14 [6]: void CalamaresApplication::init()
+2026-10-01 - 17:20:14 [6]:     Calamares version: 3.3.14 
+2026-10-01 - 17:20:14 [6]:     .. Using Qt version: 6.8.2 
+2026-10-01 - 17:20:14 [6]:     .. Build type: None 
+2026-10-01 - 17:20:14 [6]:     .. Using PyBind11 
+2026-10-01 - 17:20:14 [6]:     .. Using settings: "/etc/calamares/settings.conf" 
+2026-10-01 - 17:20:14 [6]:     .. Using log file: "/root/.cache/calamares/session.log" 
+2026-10-01 - 17:20:14 [6]:     .. Languages: QList("ar", "as", "ast", "az", "az_AZ", "be", "bg", "bn", "ca", "ca@valencia", "cs_CZ", "da", "de", "el", "en", "en_GB", "eo", "es", "es_AR", "es_MX", "et", "eu", "fa", "fi_FI", "fr", "fur", "gl", "he", "hi", "hr", "hu", "id", "is", "it_IT", "ja", "ka", "ko", "lt", "ml", "mr", "nb", "nl", "oc", "pl", "pt_BR", "pt_PT", "ro", "ru", "si", "sk", "sl", "sq", "sr", "sr@latin", "sv", "tg", "th", "tr_TR", "uk", "vi", "zh_CN", "zh_TW") 
+2026-10-01 - 17:20:14 [6]: bool Calamares::initQmlModulesDir()
+2026-10-01 - 17:20:14 [6]:     Using Calamares QML directory "/usr/share/calamares/qml" 
+2026-10-01 - 17:20:14 [6]: Calamares::Branding::Branding(const QString&, QObject*, qreal)
+2026-10-01 - 17:20:14 [6]:     Using Calamares branding file at "/etc/calamares/branding/luma/branding.desc" 
+2026-10-01 - 17:20:14 [2]: Calamares::Branding::Branding(const QString&, QObject*, qreal)
+2026-10-01 - 17:20:14 [2]:     WARNING: the branding component "/etc/calamares/branding/luma" does not ship translations. 
+2026-10-01 - 17:20:14 [6]: Calamares::Branding::Branding(const QString&, QObject*, qreal)
+2026-10-01 - 17:20:14 [6]:     Loaded branding component "luma" 
+2026-10-01 - 17:20:14 [6]:     .. No translation for "tz_" "pt_BR" using default (en) 
+2026-10-01 - 17:20:14 [6]:     .. Loaded QRC translation "calamares_" "pt_BR" 
+2026-10-01 - 17:20:14 [6]:     .. STARTUP: initSettings, initQmlPath, initBranding done 
+2026-10-01 - 17:20:14 [6]:     .. STARTUP: initModuleManager: module init started 
+2026-10-01 - 17:20:14 [6]: void Calamares::ModuleManager::doInit()
+2026-10-01 - 17:20:14 [6]:     Found 67 modules 
+2026-10-01 - 17:20:14 [6]: void CalamaresApplication::initView()
+2026-10-01 - 17:20:14 [6]:     STARTUP: initModuleManager: all modules init done 
+2026-10-01 - 17:20:14 [6]: void CalamaresApplication::initView()
+2026-10-01 - 17:20:14 [6]:     STARTUP: initJobQueue done 
+2026-10-01 - 17:20:14 [6]: CalamaresWindow::CalamaresWindow(QWidget*)
+2026-10-01 - 17:20:14 [6]:     Available desktop QSize(1843, 952) minimum size QSize(1024, 520) 
+2026-10-01 - 17:20:14 [6]:     .. Proposed window size: 1024 580 
+2026-10-01 - 17:20:14 [2]: QString Calamares::_stylesheet(const QDir&)
+2026-10-01 - 17:20:14 [2]:     WARNING: The branding component "/etc/calamares/branding/luma" does not ship stylesheet.qss. 
+2026-10-01 - 17:20:14 [6]: void CalamaresApplication::initView()
+2026-10-01 - 17:20:14 [6]:     STARTUP: CalamaresWindow created; loadModules started 
+2026-10-01 - 17:20:15 [6]: void Config::initLanguages()
+2026-10-01 - 17:20:15 [6]:     Trying to match locale "pt_BR" 
+2026-10-01 - 17:20:15 [6]: void Config::setLocaleIndex(int)
+2026-10-01 - 17:20:15 [6]:     Index 44 Selected locale "pt_BR" 
+2026-10-01 - 17:20:15 [6]:     .. No translation for "tz_" "pt_BR" using default (en) 
+2026-10-01 - 17:20:15 [6]:     .. Loaded QRC translation "calamares_" "pt_BR" 
+2026-10-01 - 17:20:15 [2]: bool getCheckInternetUrls(const QVariantMap&)
+2026-10-01 - 17:20:15 [2]:     WARNING: GeneralRequirements entry 'internetCheckUrl' is undefined in welcome.conf, reverting to default ( "http://example.com" ). 
+2026-10-01 - 17:20:15 [2]: void GeneralRequirements::setConfigurationMap(const QVariantMap&)
+2026-10-01 - 17:20:15 [2]:     WARNING: GeneralRequirements configuration map: 
+     check :   storage, ram, power, root 
+     required :   storage, ram, root 
+     requiredRam :   1 
+     requiredStorage :   15 
+2026-10-01 - 17:20:15 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:15 [6]:     ViewModule "welcome@welcome" loading complete. 
+2026-10-01 - 17:20:15 [6]: QStringList loadLocales(const QString&)
+2026-10-01 - 17:20:15 [6]:     Loading locales from "/usr/share/i18n/SUPPORTED" 
+2026-10-01 - 17:20:15 [6]: QStringList loadLocales(const QString&)
+2026-10-01 - 17:20:15 [6]:     Read 510 lines 
+2026-10-01 - 17:20:15 [6]: QStringList loadLocales(const QString&)
+2026-10-01 - 17:20:15 [6]:     After filtering 327 lines 
+2026-10-01 - 17:20:15 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:15 [6]:     ViewModule "locale@locale" loading complete. 
+2026-10-01 - 17:20:15 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:15 [2]:     WARNING: No config file for "keyboard" found anywhere at 
+     "/etc/calamares/modules/keyboard.conf" 
+     "/usr/share/calamares/modules/keyboard.conf" 
+2026-10-01 - 17:20:15 [6]: KeyboardModelsModel::KeyboardModelsModel(QObject*)
+2026-10-01 - 17:20:15 [6]:     Loaded 180 keyboard models 
+2026-10-01 - 17:20:15 [6]: KeyboardGroupsSwitchersModel::KeyboardGroupsSwitchersModel(QObject*)
+2026-10-01 - 17:20:15 [6]:     Loaded 45 keyboard groups 
+2026-10-01 - 17:20:15 [6]: KeyboardPage::KeyboardPage(Config*, QWidget*)
+2026-10-01 - 17:20:15 [6]:     Variants now total= 0 selected= -1 
+2026-10-01 - 17:20:15 [6]: KeyboardPage::KeyboardPage(Config*, QWidget*)
+2026-10-01 - 17:20:15 [6]:     Groups now total= 45 selected= -1 
+2026-10-01 - 17:20:15 [6]:     .. No translation for "kb_" "pt_BR" using default (en) 
+2026-10-01 - 17:20:15 [6]: void Config::getCurrentKeyboardLayoutXkb(QString&, QString&, QString&)
+2026-10-01 - 17:20:15 [6]:     QList("pc", "us", "inet(evdev)\"") 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     ViewModule "keyboard@keyboard" loading complete. 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "partition" found anywhere at 
+     "/etc/calamares/modules/partition.conf" 
+     "/usr/share/calamares/modules/partition.conf" 
+2026-10-01 - 17:20:16 [6]: Calamares::Partition::InternalManager::InternalManager()
+2026-10-01 - 17:20:16 [6]:     KPMCore backend starting .. 
+2026-10-01 - 17:20:16 [6]: DEBUG (Qt): Loaded backend plugin:  "pmsfdiskbackendplugin"
+2026-10-01 - 17:20:16 [6]:     .. Backend @0x5568f8e5f580 "pmsfdiskbackendplugin" "1" 
+2026-10-01 - 17:20:16 [2]: void Config::setConfigurationMap(const QVariantMap&)
+2026-10-01 - 17:20:16 [2]:     WARNING: Configuration for *initialSwapChoice* is not one of the *userSwapChoices* 
+2026-10-01 - 17:20:16 [2]: void Config::fillConfigurationFSTypes(const QVariantMap&)
+2026-10-01 - 17:20:16 [2]:     WARNING: Partition-module setting *defaultFileSystemType* is missing, will use ext4 
+2026-10-01 - 17:20:16 [2]: void Config::fillConfigurationFSTypes(const QVariantMap&)
+2026-10-01 - 17:20:16 [2]:     WARNING: Partition-module setting *luksGeneration* not found or invalid. Defaulting to luks1. 
+2026-10-01 - 17:20:16 [2]: virtual void PartitionViewStep::setConfigurationMap(const QVariantMap&)
+2026-10-01 - 17:20:16 [2]:     WARNING: Partition-module setting *defaultPartitionTableType* is unset, will use gpt for efi or msdos for bios 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     ViewModule "partition@partition" loading complete. 
+2026-10-01 - 17:20:16 [6]:     .. libpwquality setting "minlen=0" 
+2026-10-01 - 17:20:16 [6]:     .. libpwquality setting "minclass=0" 
+2026-10-01 - 17:20:16 [2]: bool addPasswordCheck(const QString&, const QVariant&, PasswordCheckList&)
+2026-10-01 - 17:20:16 [2]:     WARNING: nonempty check is ignored; use minLength: 1 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     ViewModule "users@users" loading complete. 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     ViewModule "summary@summary" loading complete. 
+2026-10-01 - 17:20:16 [6]: void Calamares::ModuleManager::loadModules()
+2026-10-01 - 17:20:16 [6]:     Module "partition@partition" already loaded. 
+2026-10-01 - 17:20:16 [6]: Calamares::SlideshowQML::SlideshowQML(QWidget*)
+2026-10-01 - 17:20:16 [6]:     QML import paths: 
+     "/usr/share/calamares/qml" 
+     "/usr/bin" 
+     "qrc:/qt-project.org/imports" 
+     "qrc:/qt/qml" 
+     "/usr/lib/x86_64-linux-gnu/qt6/qml" 
+2026-10-01 - 17:20:16 [6]: Calamares::SlideshowQML::SlideshowQML(QWidget*)
+2026-10-01 - 17:20:16 [6]:     QML load on startup, API 2. 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "luksbootkeyfile" found anywhere at 
+     "/etc/calamares/modules/luksbootkeyfile.conf" 
+     "/usr/share/calamares/modules/luksbootkeyfile.conf" 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::CppJobModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     CppJobModule "luksbootkeyfile@luksbootkeyfile" loading complete. 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "dpkg-unsafe-io" found anywhere at 
+     "/etc/calamares/modules/dpkg-unsafe-io.conf" 
+     "/usr/share/calamares/modules/dpkg-unsafe-io.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "sources-media" found anywhere at 
+     "/etc/calamares/modules/sources-media.conf" 
+     "/usr/share/calamares/modules/sources-media.conf" 
+2026-10-01 - 17:20:16 [2]: virtual void MachineIdJob::setConfigurationMap(const QVariantMap&)
+2026-10-01 - 17:20:16 [2]:     WARNING: MachineId: configuration setting *symlink* is deprecated, use *dbus-symlink*. 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::CppJobModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     CppJobModule "machineid@machineid" loading complete. 
+2026-10-01 - 17:20:16 [6]: void Calamares::ModuleManager::loadModules()
+2026-10-01 - 17:20:16 [6]:     Module "locale@locale" already loaded. 
+2026-10-01 - 17:20:16 [6]: void Calamares::ModuleManager::loadModules()
+2026-10-01 - 17:20:16 [6]:     Module "keyboard@keyboard" already loaded. 
+2026-10-01 - 17:20:16 [6]: void Calamares::ModuleManager::loadModules()
+2026-10-01 - 17:20:16 [6]:     Module "users@users" already loaded. 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "services-systemd" found anywhere at 
+     "/etc/calamares/modules/services-systemd.conf" 
+     "/usr/share/calamares/modules/services-systemd.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "bootloader-config" found anywhere at 
+     "/etc/calamares/modules/bootloader-config.conf" 
+     "/usr/share/calamares/modules/bootloader-config.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "grubcfg" found anywhere at 
+     "/etc/calamares/modules/grubcfg.conf" 
+     "/usr/share/calamares/modules/grubcfg.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "luma-efi-fallback" found anywhere at 
+     "/etc/calamares/modules/luma-efi-fallback.conf" 
+     "/usr/share/calamares/modules/luma-efi-fallback.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "plymouthcfg" found anywhere at 
+     "/etc/calamares/modules/plymouthcfg.conf" 
+     "/usr/share/calamares/modules/plymouthcfg.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "initramfs" found anywhere at 
+     "/etc/calamares/modules/initramfs.conf" 
+     "/usr/share/calamares/modules/initramfs.conf" 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::CppJobModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     CppJobModule "initramfs@initramfs" loading complete. 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "dpkg-unsafe-io-undo" found anywhere at 
+     "/etc/calamares/modules/dpkg-unsafe-io-undo.conf" 
+     "/usr/share/calamares/modules/dpkg-unsafe-io-undo.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "sources-media-unmount" found anywhere at 
+     "/etc/calamares/modules/sources-media-unmount.conf" 
+     "/usr/share/calamares/modules/sources-media-unmount.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "sources-final" found anywhere at 
+     "/etc/calamares/modules/sources-final.conf" 
+     "/usr/share/calamares/modules/sources-final.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "luma-cleanup" found anywhere at 
+     "/etc/calamares/modules/luma-cleanup.conf" 
+     "/usr/share/calamares/modules/luma-cleanup.conf" 
+2026-10-01 - 17:20:16 [2]: void Calamares::Module::loadConfigurationFile(const QString&)
+2026-10-01 - 17:20:16 [2]:     WARNING: No config file for "umount" found anywhere at 
+     "/etc/calamares/modules/umount.conf" 
+     "/usr/share/calamares/modules/umount.conf" 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::CppJobModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     CppJobModule "umount@umount" loading complete. 
+2026-10-01 - 17:20:16 [2]: void Config::setConfigurationMap(const QVariantMap&)
+2026-10-01 - 17:20:16 [2]:     WARNING: Configuring the finished module with deprecated restartNowEnabled settings 
+2026-10-01 - 17:20:16 [6]: virtual void Calamares::ViewModule::loadSelf()
+2026-10-01 - 17:20:16 [6]:     ViewModule "finished@finished" loading complete. 
+2026-10-01 - 17:20:16 [6]:     .. No translation for "kb_" "pt_BR" using default (en) 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:20:16 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:20:16 [6]: void applyXkb(const BasicLayoutInfo&, AdditionalLayoutInfo&)
+2026-10-01 - 17:20:16 [6]:     xkbmap selection changed to:  "us" - "" 
+2026-10-01 - 17:20:16 [6]: void Calamares::SlideshowQML::loadQmlV2Complete()
+2026-10-01 - 17:20:16 [6]:     QML component complete, API 2 
+2026-10-01 - 17:20:16 [6]:     .. Loading "/etc/calamares/branding/luma/show.qml" 
+2026-10-01 - 17:20:16 [6]: void CalamaresApplication::initViewSteps()
+2026-10-01 - 17:20:16 [6]:     STARTUP: loadModules for all modules done 
+2026-10-01 - 17:20:16 [6]: void Calamares::ModuleManager::checkRequirements()
+2026-10-01 - 17:20:16 [6]:     Checking module requirements .. 
+2026-10-01 - 17:20:16 [6]: void CalamaresApplication::initViewSteps()
+2026-10-01 - 17:20:16 [6]:     STARTUP: Window now visible and ProgressTreeView populated 
+2026-10-01 - 17:20:16 [6]:     .. 8 view steps loaded. 
+2026-10-01 - 17:20:17 [6]: Calamares::RequirementsList GeneralRequirements::checkRequirements()
+2026-10-01 - 17:20:17 [6]:     GeneralRequirements output: 
+     storage :   16106127360 
+     enoughStorage :   true 
+     RAM :   1073741824 
+     enoughRam :   true 
+     hasPower :   true 
+     hasInternet :   unchecked 
+     isRoot :   true 
+2026-10-01 - 17:20:17 [6]: void Calamares::RequirementsChecker::addCheckedRequirements(Calamares::Module*)
+2026-10-01 - 17:20:17 [6]:     Got 4 requirement results from "welcome" 
+2026-10-01 - 17:20:17 [6]: DEBUG (Qt): smartctl initialization failed for  "/dev/vda" :  Arquivo ou diretório inexistente
+2026-10-01 - 17:20:17 [6]: DEBUG (Qt): error during smart output parsing for  "/dev/vda" :  Arquivo ou diretório inexistente
+2026-10-01 - 17:20:17 [6]: QList<Device*> PartUtils::getDevices(DeviceType)
+2026-10-01 - 17:20:17 [6]:     Removing unsuitable devices: 1 candidates. 
+2026-10-01 - 17:20:17 [6]:     .. Running QList("blkid", "/dev/vda") 
+2026-10-01 - 17:20:17 [6]:     .. Running QList("blkid", "") 
+2026-10-01 - 17:20:17 [6]:     .. Target cmd: QList("blkid", "") Exit code: 2 (no output) 
+2026-10-01 - 17:20:17 [6]:     .. Running QList("blkid", "/dev/vda1") 
+2026-10-01 - 17:20:17 [6]:     .. Running QList("blkid", "/dev/vda2") 
+2026-10-01 - 17:20:17 [6]:     .. Running QList("blkid", "/dev/vda3") 
+2026-10-01 - 17:20:17 [6]:     .. there are 1 devices left. 
+2026-10-01 - 17:20:17 [6]: void PartitionCoreModule::doInit()
+2026-10-01 - 17:20:17 [6]:     LIST OF DETECTED DEVICES: 
+2026-10-01 - 17:20:17 [6]:     .. node	capacity	name	prettyName 
+2026-10-01 - 17:20:17 [6]:     .. "/dev/vda" 34359738368 DevName$afe14191 DevNamePretty$3a446532 
+2026-10-01 - 17:20:17 [6]:     .. 1 devices detected. 
+2026-10-01 - 17:20:18 [6]: void Calamares::RequirementsChecker::reportProgress()
+2026-10-01 - 17:20:18 [6]:     Remaining modules: 1 
+     "partition" 
+2026-10-01 - 17:20:19 [6]: void Calamares::RequirementsChecker::reportProgress()
+2026-10-01 - 17:20:19 [6]:     Remaining modules: 1 
+     "partition" 
+2026-10-01 - 17:20:19 [6]: OsproberEntryList PartUtils::runOsprober(DeviceModel*)
+2026-10-01 - 17:20:19 [6]:     os-prober gave no output. 
+2026-10-01 - 17:20:19 [2]: WARNING (Qt): beginResetModel called on BootLoaderModel(0x5568f8eaa520) without calling endResetModel first
+2026-10-01 - 17:20:19 [2]: WARNING (Qt): endResetModel called on BootLoaderModel(0x5568f8eaa520) without calling beginResetModel first
+2026-10-01 - 17:20:19 [6]: void PartitionCoreModule::scanForEfiSystemPartitions()
+2026-10-01 - 17:20:19 [6]:     system is EFI and new EFI system partition has been found. 
+2026-10-01 - 17:20:19 [6]: void Calamares::RequirementsChecker::addCheckedRequirements(Calamares::Module*)
+2026-10-01 - 17:20:19 [6]:     Got 1 requirement results from "partition" 
+2026-10-01 - 17:20:19 [2]: void ChoicePage::updateActionDescriptionsTr()
+2026-10-01 - 17:20:19 [2]:     WARNING: Invalid osprober count, labels and buttons not updated. 
+2026-10-01 - 17:20:19 [6]: bool ChoicePage::calculateNextEnabled() const
+2026-10-01 - 17:20:19 [6]:     No partitioning choice has been made yet 
+2026-10-01 - 17:20:19 [6]: void ChoicePage::updateDeviceStatePreview()
+2026-10-01 - 17:20:19 [6]:     Updating partitioning state widgets. 
+2026-10-01 - 17:20:19 [6]: void ChoicePage::setupActions()
+2026-10-01 - 17:20:19 [6]:     Setting up actions for "/dev/vda" with 0 entries. 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeResized(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Can not resize "/dev/vda" , filesystem "desconhecida" does not support resize. 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeReplaced(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Checking if "/dev/vda" can be replaced. 
+2026-10-01 - 17:20:19 [6]:     ..  NO, insufficient storage 
+     Required  storage B: 16642998272 "(15GiB)" 
+     Available storage B: 1048576 "(0GiB)" 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeResized(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Can not resize "/dev/vda1" , filesystem "fat32" does not support resize. 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeReplaced(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Checking if "/dev/vda1" can be replaced. 
+2026-10-01 - 17:20:19 [6]:     ..  NO, insufficient storage 
+     Required  storage B: 16642998272 "(15GiB)" 
+     Available storage B: 314572800 "(0GiB)" 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeResized(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Partition "/dev/vda2" authorized for resize + autopartition install. 
+2026-10-01 - 17:20:19 [6]:     .. contains resizable "/dev/vda2" 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeReplaced(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Checking if "/dev/vda2" can be replaced. 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeReplaced(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Partition "/dev/vda2" authorized for replace install. 
+2026-10-01 - 17:20:19 [6]:     .. contains replaceable "/dev/vda2" 
+2026-10-01 - 17:20:19 [6]:     ..  NO, insufficient storage 
+     Required  storage B: 18790481920 "(17.5GiB)" 
+     Available storage B: 6051904000 "(5GiB)" for "/dev/vda3" length: 11820125 sectorsUsed: 0 fsType: "linuxswap" 
+2026-10-01 - 17:20:19 [6]: bool PartUtils::canBeReplaced(Partition*, const Logger::Once&)
+2026-10-01 - 17:20:19 [6]:     Checking if "/dev/vda3" can be replaced. 
+2026-10-01 - 17:20:19 [6]:     ..  NO, insufficient storage 
+     Required  storage B: 16642998272 "(15GiB)" 
+     Available storage B: 6051904000 "(5GiB)" 
+2026-10-01 - 17:20:19 [6]: void ChoicePage::updateActionDescriptionsTr()
+2026-10-01 - 17:20:19 [6]:     Setting texts for 0 osprober entries 
+2026-10-01 - 17:20:19 [6]: void ChoicePage::continueApplyDeviceChoice()
+2026-10-01 - 17:20:19 [6]:     Previous device -1 new device 0 
+2026-10-01 - 17:20:19 [6]: void ChoicePage::applyActionChoice(InstallChoice)
+2026-10-01 - 17:20:19 [6]:     InstallChoice Config::NoChoice "none" 
+2026-10-01 - 17:20:19 [6]: bool ChoicePage::calculateNextEnabled() const
+2026-10-01 - 17:20:19 [6]:     No partitioning choice has been made yet 
+2026-10-01 - 17:20:19 [6]: void ChoicePage::updateActionChoicePreview(InstallChoice)
+2026-10-01 - 17:20:19 [6]:     Updating partitioning preview widgets. 
+2026-10-01 - 17:20:19 [6]: bool ChoicePage::calculateNextEnabled() const
+2026-10-01 - 17:20:19 [6]:     No partitioning choice has been made yet 
+2026-10-01 - 17:20:19 [6]: bool ChoicePage::calculateNextEnabled() const
+2026-10-01 - 17:20:19 [6]:     No partitioning choice has been made yet 
+2026-10-01 - 17:20:19 [6]: void Calamares::RequirementsChecker::finished()
+2026-10-01 - 17:20:19 [6]:     All requirements have been checked. 
+2026-10-01 - 17:20:19 [6]: void Calamares::RequirementsModel::describe() const
+2026-10-01 - 17:20:19 [6]:     Requirements model has 5 items 
+2026-10-01 - 17:20:19 [6]:     .. requirement 0 "storage" satisfied? true mandatory? true 
+2026-10-01 - 17:20:19 [6]:     .. requirement 1 "ram" satisfied? true mandatory? true 
+2026-10-01 - 17:20:19 [6]:     .. requirement 2 "power" satisfied? true mandatory? false 
+2026-10-01 - 17:20:19 [6]:     .. requirement 3 "root" satisfied? true mandatory? true 
+2026-10-01 - 17:20:19 [6]:     .. requirement 4 "partitions" satisfied? true mandatory? true 
+2026-10-01 - 17:20:28 [6]: static LocaleConfiguration LocaleConfiguration::fromLanguageAndLocation(const QString&, const QStringList&, const QString&)
+2026-10-01 - 17:20:28 [6]:     Mapping "pt_BR" in "BR" to locale. 
+2026-10-01 - 17:20:28 [6]:     .. Got best match for "pt_BR" as "pt_BR.UTF-8" 
+2026-10-01 - 17:20:28 [2]: WARNING (Qt): QString::arg: Argument missing: Configure timezone para 1, America/Sao Paulo
+2026-10-01 - 17:20:28 [2]: WARNING (Qt): QString::arg: Argument missing: Configure timezone para 1, America/Sao Paulo
+2026-10-01 - 17:20:28 [6]: static LocaleConfiguration LocaleConfiguration::fromLanguageAndLocation(const QString&, const QStringList&, const QString&)
+2026-10-01 - 17:20:28 [6]:     Mapping "pt_BR" in "BR" to locale. 
+2026-10-01 - 17:20:28 [6]:     .. Got best match for "pt_BR" as "pt_BR.UTF-8" 
+2026-10-01 - 17:20:28 [6]: static LocaleConfiguration LocaleConfiguration::fromLanguageAndLocation(const QString&, const QStringList&, const QString&)
+2026-10-01 - 17:20:28 [6]:     Mapping "pt_BR" in "BR" to locale. 
+2026-10-01 - 17:20:28 [6]:     .. Got best match for "pt_BR" as "pt_BR.UTF-8" 
+2026-10-01 - 17:20:36 [6]: void Config::guessLocaleKeyboardLayout()
+2026-10-01 - 17:20:36 [6]:     Got locale language "pt_BR.UTF-8" 
+2026-10-01 - 17:20:36 [6]:     .. looking for locale part "BR" 
+2026-10-01 - 17:20:36 [6]:     .. matched "br" 
+2026-10-01 - 17:20:36 [6]: void guessLayout(const QStringList&, KeyboardLayoutModel*, KeyboardVariantsModel*)
+2026-10-01 - 17:20:36 [6]:     Next level: "pt" 
+2026-10-01 - 17:20:37 [6]: void applyXkb(const BasicLayoutInfo&, AdditionalLayoutInfo&)
+2026-10-01 - 17:20:37 [6]:     xkbmap selection changed to:  "br" - "" 
+2026-10-01 - 17:21:07 [6]: void ChoicePage::applyActionChoice(InstallChoice)
+2026-10-01 - 17:21:07 [6]:     InstallChoice Config::Erase "erase" 
+2026-10-01 - 17:21:07 [6]: PartitionTable* CreatePartitionTableJob::createTable()
+2026-10-01 - 17:21:07 [6]:     CreatePartitionTableJob::createTable trying to make table for device "/dev/vda" 
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): beginResetModel called on BootLoaderModel(0x5568f8eaa520) without calling endResetModel first
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): endResetModel called on BootLoaderModel(0x5568f8eaa520) without calling beginResetModel first
+2026-10-01 - 17:21:07 [2]: void PartitionCoreModule::scanForEfiSystemPartitions()
+2026-10-01 - 17:21:07 [2]:     WARNING: system is EFI but no EFI system partitions found. 
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): beginResetModel called on BootLoaderModel(0x5568f8eaa520) without calling endResetModel first
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): endResetModel called on BootLoaderModel(0x5568f8eaa520) without calling beginResetModel first
+2026-10-01 - 17:21:07 [6]: void PartitionCoreModule::scanForEfiSystemPartitions()
+2026-10-01 - 17:21:07 [6]:     system is EFI and new EFI system partition has been found. 
+2026-10-01 - 17:21:07 [6]: quint64 swapSuggestion(quint64, Config::SwapChoice)
+2026-10-01 - 17:21:07 [6]:     Suggested swap size: 5 GiB 
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): beginResetModel called on BootLoaderModel(0x5568f8eaa520) without calling endResetModel first
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): endResetModel called on BootLoaderModel(0x5568f8eaa520) without calling beginResetModel first
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): beginResetModel called on BootLoaderModel(0x5568f8eaa520) without calling endResetModel first
+2026-10-01 - 17:21:07 [2]: WARNING (Qt): endResetModel called on BootLoaderModel(0x5568f8eaa520) without calling beginResetModel first
+2026-10-01 - 17:21:07 [6]: void PartitionCoreModule::dumpQueue() const
+2026-10-01 - 17:21:07 [6]:     # Queue: 
+2026-10-01 - 17:21:07 [6]:     .. ## Device: "/dev/vda" 
+2026-10-01 - 17:21:07 [6]:     .. - CreatePartitionTableJob 
+2026-10-01 - 17:21:07 [6]:     .. - CreatePartitionJob 
+2026-10-01 - 17:21:07 [6]:     .. - SetPartFlagsJob 
+2026-10-01 - 17:21:07 [6]:     .. - CreatePartitionJob 
+2026-10-01 - 17:21:07 [6]:     .. - CreatePartitionJob 
+2026-10-01 - 17:21:07 [6]: void ChoicePage::updateActionChoicePreview(InstallChoice)
+2026-10-01 - 17:21:07 [6]:     Updating partitioning preview widgets. 
+2026-10-01 - 17:21:15 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:15 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:15 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:15 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:15 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:15 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:15 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:15 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:22 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:22 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:23 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:23 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:24 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:24 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:24 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:24 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:24 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:24 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:24 [2]: add_check_libpwquality(PasswordCheckList&, const QVariant&)::<lambda(const QString&)>
+2026-10-01 - 17:21:24 [2]:     WARNING: libpwquality error -20 Nenhuma senha informada 
+2026-10-01 - 17:21:44 [2]: WARNING (Qt): QString::arg: Argument missing: Configure timezone para 1, America/Sao Paulo
+2026-10-01 - 17:21:44 [2]: WARNING (Qt): QString::arg: Argument missing: modelo teclado foi configurado para 1, Generic 105-key PC
+2026-10-01 - 17:21:44 [2]: WARNING (Qt): QObject::setParent: Cannot set parent, new parent is in a different thread
+2026-10-01 - 17:21:44 [6]: virtual QString PartitionViewStep::prettyStatus() const
+2026-10-01 - 17:21:44 [6]:     Summary for Partition 1 Config::Erase 
+2026-10-01 - 17:21:44 [6]: QStringList findEssentialLVs(const QList<PartitionCoreModule::DeviceInfo*>&)
+2026-10-01 - 17:21:44 [6]:     Checking LVM use on 1 devices 
+2026-10-01 - 17:21:44 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+2026-10-01 - 17:21:44 [6]:     Building partition information map 
+2026-10-01 - 17:21:44 [6]:     .. partitions on "/dev/vda" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "não alocado" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "" 
+     fs: :   "unknown" 
+     fsName :   "desconhecida" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "false" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "Nova partição" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/boot/efi" 
+     fs: :   "fat32" 
+     fsName :   "fat32" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "true" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "Nova partição" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "ext4" 
+     fsName :   "ext4" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "true" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "Nova partição" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "" 
+     fs: :   "linuxswap" 
+     fsName :   "linuxswap" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "true" 
+2026-10-01 - 17:21:44 [2]: WARNING (Qt): QLayout: Attempting to add QLayout "" to QWidget "", which already has a layout
+2026-10-01 - 17:21:44 [2]: WARNING (Qt): QObject::setParent: Cannot set parent, new parent is in a different thread
+2026-10-01 - 17:21:44 [6]: QStringList findEssentialLVs(const QList<PartitionCoreModule::DeviceInfo*>&)
+2026-10-01 - 17:21:44 [6]:     Checking LVM use on 1 devices 
+2026-10-01 - 17:21:44 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+2026-10-01 - 17:21:44 [6]:     Building partition information map 
+2026-10-01 - 17:21:44 [6]:     .. partitions on "/dev/vda" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "não alocado" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "" 
+     fs: :   "unknown" 
+     fsName :   "desconhecida" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "false" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "Nova partição" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/boot/efi" 
+     fs: :   "fat32" 
+     fsName :   "fat32" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "true" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "Nova partição" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "ext4" 
+     fsName :   "ext4" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "true" 
+2026-10-01 - 17:21:44 [6]:     ..  mapping for "" "Nova partição" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "" 
+     fs: :   "linuxswap" 
+     fsName :   "linuxswap" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "true" 
+2026-10-01 - 17:21:45 [6]: void ensureSize(QWidget*, QScrollArea*, Calamares::ViewStep*)
+2026-10-01 - 17:21:45 [6]:     Summary widget is larger than viewport, enlarge by 70 to QSize(834, 619) 
+2026-10-01 - 17:21:55 [6]: void Calamares::callQmlFunction(QQuickItem*, const char*)
+2026-10-01 - 17:21:55 [6]:     QML "onActivate()" is missing. 
+2026-10-01 - 17:21:55 [6]: QStringList findEssentialLVs(const QList<PartitionCoreModule::DeviceInfo*>&)
+2026-10-01 - 17:21:55 [6]:     Checking LVM use on 1 devices 
+2026-10-01 - 17:21:55 [6]: void Calamares::JobThread::finalize()
+2026-10-01 - 17:21:55 [6]:     There are 43 jobs, total weight 40 
+2026-10-01 - 17:21:55 [6]:     .. Job 1 "Gerenciando configurações de auto-montagem…" +wt 0.1 tot.wt 0.1 
+2026-10-01 - 17:21:55 [6]:     .. Job 2 "Limpando todas as montagens temporárias…" +wt 0.1 tot.wt 0.2 
+2026-10-01 - 17:21:55 [6]:     .. Job 3 "Limpar as montagens para as operações nas partições em /dev/vda" +wt 0.1 tot.wt 0.3 
+2026-10-01 - 17:21:55 [6]:     .. Job 4 "Criando nova tabela de partições gpt em /dev/vda…" +wt 0.1 tot.wt 0.4 
+2026-10-01 - 17:21:55 [6]:     .. Job 5 "Criar nova partição de 300MiB em /dev/vda (vda)" +wt 0.1 tot.wt 0.5 
+2026-10-01 - 17:21:55 [6]:     .. Job 6 "Definir marcadores na partição fat32 de 300MiB" +wt 0.1 tot.wt 0.6 
+2026-10-01 - 17:21:55 [6]:     .. Job 7 "Criar nova partição de 26694MiB em /dev/vda (vda) com entradas root" +wt 0.1 tot.wt 0.7 
+2026-10-01 - 17:21:55 [6]:     .. Job 8 "Criar nova partição de 5771MiB em /dev/vda (vda)" +wt 0.1 tot.wt 0.8 
+2026-10-01 - 17:21:55 [6]:     .. Job 9 "Definir informações da partição" +wt 0.1 tot.wt 0.9 
+2026-10-01 - 17:21:55 [6]:     .. Job 10 "Gerenciando configurações de auto-montagem…" +wt 0.1 tot.wt 1 
+2026-10-01 - 17:21:55 [6]:     .. Job 11 "mount" +wt 1 tot.wt 2 
+2026-10-01 - 17:21:55 [6]:     .. Job 12 "unpackfs" +wt 12 tot.wt 14 
+2026-10-01 - 17:21:55 [6]:     .. Job 13 "Configurando o arquivo de chave do LUKS." +wt 1 tot.wt 15 
+2026-10-01 - 17:21:55 [6]:     .. Job 14 "Run command '/usr/share/calamares/helpers/calamares-dpkg-unsafe-io'" +wt 1 tot.wt 16 
+2026-10-01 - 17:21:55 [6]:     .. Job 15 "Run command '/usr/share/calamares/helpers/calamares-sources-media'" +wt 1 tot.wt 17 
+2026-10-01 - 17:21:55 [6]:     .. Job 16 "Gerar machine-id." +wt 1 tot.wt 18 
+2026-10-01 - 17:21:55 [6]:     .. Job 17 "fstab" +wt 1 tot.wt 19 
+2026-10-01 - 17:21:55 [6]:     .. Job 18 "Definindo fuso horário para America/Sao_Paulo…" +wt 1 tot.wt 20 
+2026-10-01 - 17:21:55 [6]:     .. Job 19 "Definindo modelo de teclado para pc105, leiaute como br-…" +wt 1 tot.wt 21 
+2026-10-01 - 17:21:55 [6]:     .. Job 20 "localecfg" +wt 1 tot.wt 22 
+2026-10-01 - 17:21:55 [6]:     .. Job 21 "Configurando usuários <pre>sudo</pre>…" +wt 0.166667 tot.wt 22.1667 
+2026-10-01 - 17:21:55 [6]:     .. Job 22 "Preparando grupos…" +wt 0.166667 tot.wt 22.3333 
+2026-10-01 - 17:21:55 [6]:     .. Job 23 "Criar usuário anat" +wt 0.166667 tot.wt 22.5 
+2026-10-01 - 17:21:55 [6]:     .. Job 24 "Definir senha para usuário anat" +wt 0.166667 tot.wt 22.6667 
+2026-10-01 - 17:21:55 [6]:     .. Job 25 "Definir senha para usuário root" +wt 0.166667 tot.wt 22.8333 
+2026-10-01 - 17:21:55 [6]:     .. Job 26 "Definir nome da máquina ana-standardpc" +wt 0.166667 tot.wt 23 
+2026-10-01 - 17:21:55 [6]:     .. Job 27 "displaymanager" +wt 1 tot.wt 24 
+2026-10-01 - 17:21:55 [6]:     .. Job 28 "networkcfg" +wt 1 tot.wt 25 
+2026-10-01 - 17:21:55 [6]:     .. Job 29 "hwclock" +wt 1 tot.wt 26 
+2026-10-01 - 17:21:55 [6]:     .. Job 30 "services-systemd" +wt 1 tot.wt 27 
+2026-10-01 - 17:21:55 [6]:     .. Job 31 "Run command '/usr/share/calamares/helpers/calamares-bootloader-config'" +wt 1 tot.wt 28 
+2026-10-01 - 17:21:55 [6]:     .. Job 32 "grubcfg" +wt 1 tot.wt 29 
+2026-10-01 - 17:21:55 [6]:     .. Job 33 "bootloader" +wt 1 tot.wt 30 
+2026-10-01 - 17:21:55 [6]:     .. Job 34 "Run command '/usr/libexec/luma-live/luma-efi-fallback'" +wt 1 tot.wt 31 
+2026-10-01 - 17:21:55 [6]:     .. Job 35 "packages" +wt 1 tot.wt 32 
+2026-10-01 - 17:21:55 [6]:     .. Job 36 "plymouthcfg" +wt 1 tot.wt 33 
+2026-10-01 - 17:21:55 [6]:     .. Job 37 "initramfscfg" +wt 1 tot.wt 34 
+2026-10-01 - 17:21:55 [6]:     .. Job 38 "Criando initramfs…" +wt 1 tot.wt 35 
+2026-10-01 - 17:21:55 [6]:     .. Job 39 "Run command '/usr/share/calamares/helpers/calamares-dpkg-unsafe-io -u'" +wt 1 tot.wt 36 
+2026-10-01 - 17:21:55 [6]:     .. Job 40 "Run command '/usr/share/calamares/helpers/calamares-sources-media -u'" +wt 1 tot.wt 37 
+2026-10-01 - 17:21:55 [6]:     .. Job 41 "Run command '/usr/share/calamares/helpers/calamares-sources-final'" +wt 1 tot.wt 38 
+2026-10-01 - 17:21:55 [6]:     .. Job 42 "Run command '/usr/libexec/luma-live/luma-installer-cleanup'" +wt 1 tot.wt 39 
+2026-10-01 - 17:21:55 [6]:     .. Job 43 "Desmontando sistema de arquivos…" +wt 1 tot.wt 40 
+2026-10-01 - 17:21:55 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:55 [6]:     Starting job "Gerenciando configurações de auto-montagem…" ( 1 / 43 ) 
+2026-10-01 - 17:21:55 [6]: virtual Calamares::JobResult AutoMountManagementJob::exec()
+2026-10-01 - 17:21:55 [6]:     Set automount to disable 
+2026-10-01 - 17:21:55 [6]: void Calamares::Partition::querySolidAutoMount(QDBusConnection&, AutoMountInfo&)
+2026-10-01 - 17:21:55 [6]:     Solid not available: "Not connected to D-Bus server" 
+2026-10-01 - 17:21:55 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:55 [6]:     Starting job "Limpando todas as montagens temporárias…" ( 2 / 43 ) 
+2026-10-01 - 17:21:55 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:55 [6]:     Starting job "Limpar as montagens para as operações nas partições em /dev/vda" ( 3 / 43 ) 
+2026-10-01 - 17:21:55 [2]: QStringList getLVMVolumes()
+2026-10-01 - 17:21:55 [2]:     WARNING: this system does not seem to have LVM2 tools. 
+2026-10-01 - 17:21:55 [2]: QStringList getPVGroups(const QString&)
+2026-10-01 - 17:21:55 [2]:     WARNING: this system does not seem to have LVM2 tools. 
+2026-10-01 - 17:21:55 [6]: QStringList getPartitionsForDevice(const QString&)
+2026-10-01 - 17:21:55 [6]:     Reading from "/proc/partitions" looking for "vda" 
+2026-10-01 - 17:21:55 [6]: virtual Calamares::JobResult ClearMountsJob::exec()
+2026-10-01 - 17:21:55 [6]:     ClearMountsJob finished. Here's what was done: 
+2026-10-01 - 17:21:55 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:21:55 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:21:55 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:55 [6]:     Starting job "Criando nova tabela de partições gpt em /dev/vda…" ( 4 / 43 ) 
+2026-10-01 - 17:21:55 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:55 [6]:     Starting job "Criar nova partição de 300MiB em /dev/vda (vda)" ( 5 / 43 ) 
+2026-10-01 - 17:21:57 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:57 [6]:     Starting job "Definir marcadores na partição /dev/vda1" ( 6 / 43 ) 
+2026-10-01 - 17:21:57 [6]: virtual Calamares::JobResult SetPartFlagsJob::exec()
+2026-10-01 - 17:21:57 [6]:     Setting flags on "/dev/vda" partition "/dev/vda1" 
+     "boot" 
+2026-10-01 - 17:21:57 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:21:57 [6]:     Starting job "Criar nova partição de 26694MiB em /dev/vda (vda) com entradas root" ( 7 / 43 ) 
+2026-10-01 - 17:22:01 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:22:01 [6]:     Starting job "Criar nova partição de 5771MiB em /dev/vda (vda)" ( 8 / 43 ) 
+2026-10-01 - 17:22:02 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:22:02 [6]:     Starting job "Definir informações da partição" ( 9 / 43 ) 
+2026-10-01 - 17:22:02 [6]: QVariantList FillGlobalStorageJob::createPartitionList() const
+2026-10-01 - 17:22:02 [6]:     Building partition information map 
+2026-10-01 - 17:22:02 [6]:     .. partitions on "/dev/vda" 
+2026-10-01 - 17:22:02 [6]:     ..  mapping for "" "não alocado" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$fed0c9f4" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "" 
+     fs: :   "unknown" 
+     fsName :   "desconhecida" 
+     filesystem-uuid (uuid) :   "FSUUID$77ab41b5" 
+     claimed :   "false" 
+2026-10-01 - 17:22:02 [6]:     ..  mapping for "/dev/vda1" "/dev/vda1" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$549e4c54" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/boot/efi" 
+     fs: :   "fat32" 
+     fsName :   "fat32" 
+     filesystem-uuid (uuid) :   "FSUUID$ef93f92f" 
+     claimed :   "true" 
+2026-10-01 - 17:22:02 [6]:     ..  mapping for "/dev/vda2" "/dev/vda2" 
+     partlabel :   "root" 
+     partition-uuid (partuuid) :   "PartUUID$52e4fe9d" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "/" 
+     fs: :   "ext4" 
+     fsName :   "ext4" 
+     filesystem-uuid (uuid) :   "FSUUID$ba600f5b" 
+     claimed :   "true" 
+2026-10-01 - 17:22:02 [6]:     ..  mapping for "/dev/vda3" "/dev/vda3" 
+     partlabel :   "" 
+     partition-uuid (partuuid) :   "PartUUID$402be65f" 
+     parttype :   "" 
+     partattrs :   "0" 
+     mountPoint: :   "" 
+     fs: :   "linuxswap" 
+     fsName :   "linuxswap" 
+     filesystem-uuid (uuid) :   "FSUUID$e3ac05c3" 
+     claimed :   "true" 
+2026-10-01 - 17:22:02 [6]: virtual Calamares::JobResult FillGlobalStorageJob::exec()
+2026-10-01 - 17:22:02 [6]:     Saving partition information map to GlobalStorage["partitions"] 
+2026-10-01 - 17:22:02 [6]: virtual Calamares::JobResult FillGlobalStorageJob::exec()
+2026-10-01 - 17:22:02 [6]:     FillGlobalStorageJob writing empty bootLoader value 
+2026-10-01 - 17:22:02 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:22:02 [6]:     Starting job "Gerenciando configurações de auto-montagem…" ( 10 / 43 ) 
+2026-10-01 - 17:22:02 [6]: virtual Calamares::JobResult AutoMountManagementJob::exec()
+2026-10-01 - 17:22:02 [6]:     Restore automount settings 
+2026-10-01 - 17:22:02 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:22:02 [6]:     Starting job "mount" ( 11 / 43 ) 
+2026-10-01 - 17:22:03 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("swapon", "/dev/vda3") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "ext4", "-o", "defaults", "/dev/vda2", "/tmp/calamares-root-pd2lee7p/") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "vfat", "-o", "defaults", "/dev/vda1", "/tmp/calamares-root-pd2lee7p/boot/efi") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-o", "bind", "/dev", "/tmp/calamares-root-pd2lee7p/dev") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-o", "bind", "/dev/pts", "/tmp/calamares-root-pd2lee7p/dev/pts") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "proc", "-o", "defaults", "proc", "/tmp/calamares-root-pd2lee7p/proc") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "tmpfs", "-o", "defaults", "tmpfs", "/tmp/calamares-root-pd2lee7p/run") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-o", "bind", "/run/udev", "/tmp/calamares-root-pd2lee7p/run/udev") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "sysfs", "-o", "defaults", "sys", "/tmp/calamares-root-pd2lee7p/sys") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "efivarfs", "-o", "defaults", "efivarfs", "/tmp/calamares-root-pd2lee7p/sys/firmware/efi/efivars") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:22:03 [6]:     Starting job "unpackfs" ( 12 / 43 ) 
+2026-10-01 - 17:22:03 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("mount", "-t", "squashfs", "-o", "loop", "/run/live/medium/live/filesystem.squashfs", "/tmp/tmphy56hoou/filesystem") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:22:03 [6]:     .. Running QList("unsquashfs", "-l", "/run/live/medium/live/filesystem.squashfs") 
+2026-10-01 - 17:22:04 [6]:     .. Running QList("rsync", "-aHAXSr", "--filter=-x trusted.overlay.*", "--exclude", "/proc/", "--exclude", "/sys/", "--exclude", "/dev/", "--exclude", "/run/", "--exclude", "/run/udev/", "--exclude", "/sys/firmware/efi/efivars/", "--exclude", "/dev/pts/", "--progress", "/tmp/tmphy56hoou/filesystem/", "/tmp/calamares-root-pd2lee7p") 
+2026-10-01 - 17:36:03 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:36:03 [6]:     Starting job "Configurando o arquivo de chave do LUKS." ( 13 / 43 ) 
+2026-10-01 - 17:36:04 [6]: virtual Calamares::JobResult LuksBootKeyFileJob::exec()
+2026-10-01 - 17:36:04 [6]:     There are 0 LUKS partitions 
+2026-10-01 - 17:36:04 [6]:     .. Nothing to do for LUKS. 
+2026-10-01 - 17:36:04 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:36:04 [6]:     Starting job "Run command '/usr/share/calamares/helpers/calamares-dpkg-unsafe-io'" ( 14 / 43 ) 
+2026-10-01 - 17:36:04 [6]:     .. Running QList("/bin/sh", "-c", "/usr/share/calamares/helpers/calamares-dpkg-unsafe-io") 
+2026-10-01 - 17:36:04 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:36:04 [6]:     Starting job "Run command '/usr/share/calamares/helpers/calamares-sources-media'" ( 15 / 43 ) 
+2026-10-01 - 17:36:04 [6]:     .. Running QList("/bin/sh", "-c", "/usr/share/calamares/helpers/calamares-sources-media") 
+2026-10-01 - 17:36:49 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:36:49 [6]:     Starting job "Gerar machine-id." ( 16 / 43 ) 
+2026-10-01 - 17:36:49 [2]: Calamares::JobResult createEntropy(EntropyGeneration, const QString&, const QString&)
+2026-10-01 - 17:36:49 [2]:     WARNING: Host system entropy does not exist at "/var/lib/urandom/random-seed" 
+2026-10-01 - 17:37:00 [6]:     .. Running QList("systemd-machine-id-setup", "--root=/tmp/calamares-root-pd2lee7p") 
+2026-10-01 - 17:37:01 [6]:     .. Running QList("ln", "-sf", "/etc/machine-id", "/var/lib/dbus/machine-id") 
+2026-10-01 - 17:37:01 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:01 [6]:     Starting job "fstab" ( 17 / 43 ) 
+2026-10-01 - 17:37:02 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:02 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:02 [6]:     Starting job "Definindo fuso horário para America/Sao_Paulo…" ( 18 / 43 ) 
+2026-10-01 - 17:37:02 [6]:     .. Running QList("rm", "-f", "/etc/localtime") 
+2026-10-01 - 17:37:02 [6]:     .. Running QList("ln", "-s", "/usr/share/zoneinfo/America/Sao_Paulo", "/etc/localtime") 
+2026-10-01 - 17:37:03 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:03 [6]:     Starting job "Definindo modelo de teclado para pc105, leiaute como br-…" ( 19 / 43 ) 
+2026-10-01 - 17:37:03 [6]: virtual Calamares::JobResult SetKeyboardLayoutJob::exec()
+2026-10-01 - 17:37:03 [6]:     Executing SetKeyboardLayoutJob 
+2026-10-01 - 17:37:03 [6]: bool SetKeyboardLayoutJob::writeVConsoleData(const QString&, const QString&) const
+2026-10-01 - 17:37:03 [6]:     Writing vconsole data to "/tmp/calamares-root-pd2lee7p/etc/vconsole.conf" 
+2026-10-01 - 17:37:03 [6]: QString SetKeyboardLayoutJob::findConvertedKeymap(const QString&) const
+2026-10-01 - 17:37:03 [6]:     Looking for converted keymap in "" 
+2026-10-01 - 17:37:03 [6]: QString findLegacyKeymap(const QString&, const QString&, const QString&)
+2026-10-01 - 17:37:03 [6]:     Looking for legacy keymap "br" "pc105" "" in QRC 
+2026-10-01 - 17:37:03 [6]:     .. Found legacy keymap "br-abnt2" with score 11 
+2026-10-01 - 17:37:03 [6]:     .. Written KEYMAP= "br-abnt2" to vconsole.conf 0 
+2026-10-01 - 17:37:03 [6]: bool SetKeyboardLayoutJob::writeX11Data(const QString&) const
+2026-10-01 - 17:37:03 [6]:     Writing X11 configuration to "/tmp/calamares-root-pd2lee7p/etc/X11/xorg.conf.d/00-keyboard.conf" 
+2026-10-01 - 17:37:03 [6]:     .. Written XkbLayout "br" ; XkbModel "pc105" ; XkbVariant "" to X.org file "/tmp/calamares-root-pd2lee7p/etc/X11/xorg.conf.d/00-keyboard.conf" 0 
+2026-10-01 - 17:37:03 [6]: bool SetKeyboardLayoutJob::writeDefaultKeyboardData(const QString&) const
+2026-10-01 - 17:37:03 [6]:     Writing default keyboard data to "/tmp/calamares-root-pd2lee7p/etc/default/keyboard" 
+2026-10-01 - 17:37:21 [6]:     .. Written XKBMODEL "pc105" ; XKBLAYOUT "br" ; XKBVARIANT "" to /etc/default/keyboard file "/tmp/calamares-root-pd2lee7p/etc/default/keyboard" 0 
+2026-10-01 - 17:37:21 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:21 [6]:     Starting job "localecfg" ( 20 / 43 ) 
+2026-10-01 - 17:37:34 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:34 [6]:     .. Running QList("locale-gen") 
+2026-10-01 - 17:37:38 [6]: [PYTHON JOB]: "/tmp/calamares-root-pd2lee7p/etc/locale.gen done" 
+2026-10-01 - 17:37:38 [6]: [PYTHON JOB]: "/tmp/calamares-root-pd2lee7p/etc/locale.conf done" 
+2026-10-01 - 17:37:38 [6]: [PYTHON JOB]: "/tmp/calamares-root-pd2lee7p/etc/default done" 
+2026-10-01 - 17:37:38 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:38 [6]:     Starting job "Configurando usuários <pre>sudo</pre>…" ( 21 / 43 ) 
+2026-10-01 - 17:37:38 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:38 [6]:     Starting job "Preparando grupos…" ( 22 / 43 ) 
+2026-10-01 - 17:37:38 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:38 [6]:     Starting job "Criar usuário anat" ( 23 / 43 ) 
+2026-10-01 - 17:37:38 [6]: virtual Calamares::JobResult CreateUserJob::exec()
+2026-10-01 - 17:37:38 [6]:     [CREATEUSER]: creating user 
+2026-10-01 - 17:37:38 [6]:     .. Running QList("useradd", "-m", "-U", "-s", "/bin/bash", "-c", "Ana Teste", "anat") 
+2026-10-01 - 17:37:38 [6]:     .. Running "usermod" "-aG" "cdrom,floppy,sudo,dip,video,plugdev,netdev,lpadmin,scanner,bluetooth" "anat" 
+2026-10-01 - 17:37:38 [6]:     .. Running QList("chown", "-R", "anat:anat", "/home/anat") 
+2026-10-01 - 17:37:38 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:38 [6]:     Starting job "Definir senha para usuário anat" ( 24 / 43 ) 
+2026-10-01 - 17:37:38 [6]:     .. Running "usermod" "-p" "HASH-REMOVIDO" "anat" 
+2026-10-01 - 17:37:39 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:39 [6]:     Starting job "Definir senha para usuário root" ( 25 / 43 ) 
+2026-10-01 - 17:37:39 [6]:     .. Running "usermod" "-p" "!" "root" 
+2026-10-01 - 17:37:39 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:39 [6]:     Starting job "Definir nome da máquina ana-standardpc" ( 26 / 43 ) 
+2026-10-01 - 17:37:39 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:39 [6]:     Starting job "displaymanager" ( 27 / 43 ) 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "slim selected but not installed" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "lightdm selected but not installed" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "gdm selected but not installed" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "mdm selected but not installed" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "lxdm selected but not installed" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "kdm has 0 implementation classes." 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "kdm selected but not installed" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "Using rootMountPoint '/tmp/calamares-root-pd2lee7p'" 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: ".. selected DE plasma" 
+2026-10-01 - 17:37:39 [2]: Calamares::Python::Object Calamares::Python::GlobalStorageProxy::value(const std::string&) const
+2026-10-01 - 17:37:39 [2]:     WARNING: Unknown GS key autoLoginUser 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: "Unsetting autologin." 
+2026-10-01 - 17:37:39 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:39 [6]:     Starting job "networkcfg" ( 28 / 43 ) 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:39 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:39 [6]:     Starting job "hwclock" ( 29 / 43 ) 
+2026-10-01 - 17:37:39 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:39 [6]:     .. Running QList("hwclock", "--systohc", "--utc") 
+2026-10-01 - 17:37:40 [6]: [PYTHON JOB]: "Hwclock set using RTC method." 
+2026-10-01 - 17:37:40 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:40 [6]:     Starting job "services-systemd" ( 30 / 43 ) 
+2026-10-01 - 17:37:40 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:40 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:40 [6]:     Starting job "Run command '/usr/share/calamares/helpers/calamares-bootloader-config'" ( 31 / 43 ) 
+2026-10-01 - 17:37:40 [6]:     .. Running QList("/bin/sh", "-c", "/usr/share/calamares/helpers/calamares-bootloader-config") 
+2026-10-01 - 17:37:48 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:48 [6]:     Starting job "grubcfg" ( 32 / 43 ) 
+2026-10-01 - 17:37:48 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:48 [6]:     .. Running QList("sh", "-c", "which dracut") 
+2026-10-01 - 17:37:49 [6]:     .. Target cmd: QList("sh", "-c", "which dracut") Exit code: 1 (no output) 
+2026-10-01 - 17:37:49 [6]:     .. Running QList("sh", "-c", "which plymouth") 
+2026-10-01 - 17:37:49 [6]:     .. Running QList("sh", "-c", "grep -q \"^HOOKS.*systemd\" /etc/mkinitcpio.conf") 
+2026-10-01 - 17:37:49 [6]:     .. Target cmd: QList("sh", "-c", "grep -q \"^HOOKS.*systemd\" /etc/mkinitcpio.conf") Exit code: 2 output:
+grep: /etc/mkinitcpio.conf: No such file or directory
+2026-10-01 - 17:37:49 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:37:49 [6]:     Starting job "bootloader" ( 33 / 43 ) 
+2026-10-01 - 17:37:49 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:37:49 [6]: [PYTHON JOB]: "Bootloader: grub (efi)" 
+2026-10-01 - 17:37:49 [6]:     .. Running QList("grub-install", "--target=x86_64-efi", "--efi-directory=/boot/efi", "--bootloader-id=Debian", "--force") 
+2026-10-01 - 17:38:34 [6]: [PYTHON JOB]: "UEFI Fallback: True" 
+2026-10-01 - 17:38:34 [6]: [PYTHON JOB]: "  .. installing 'bootx64.efi' fallback firmware" 
+2026-10-01 - 17:38:34 [6]:     .. Running QList("grub-mkconfig", "-o", "/boot/grub/grub.cfg") 
+2026-10-01 - 17:38:35 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:38:35 [6]:     Starting job "Run command '/usr/libexec/luma-live/luma-efi-fallback'" ( 34 / 43 ) 
+2026-10-01 - 17:38:35 [6]:     .. Running QList("/bin/sh", "-c", "/usr/libexec/luma-live/luma-efi-fallback") 
+2026-10-01 - 17:38:47 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:38:47 [6]:     Starting job "packages" ( 35 / 43 ) 
+2026-10-01 - 17:38:47 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:38:47 [6]: [PYTHON JOB]: "Instalar pacotes." 
+2026-10-01 - 17:38:47 [6]:     .. Running QList("apt-get", "--purge", "-q", "-y", "remove", "live-boot", "live-boot-doc", "live-config", "live-config-doc", "live-config-systemd", "live-tools", "live-task-localisation", "live-task-recommended", "luma-live", "calamares-settings-debian", "calamares") 
+2026-10-01 - 17:40:21 [6]:     .. Running QList("apt-get", "--purge", "-q", "-y", "autoremove") 
+2026-10-01 - 17:42:14 [6]: [PYTHON JOB]: "Pretty name: Instalar pacotes., setting progress.." 
+2026-10-01 - 17:42:14 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:42:14 [6]:     Starting job "plymouthcfg" ( 36 / 43 ) 
+2026-10-01 - 17:42:14 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:42:14 [6]:     .. Running QList("sh", "-c", "which plymouth") 
+2026-10-01 - 17:42:14 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:42:14 [6]:     Starting job "initramfscfg" ( 37 / 43 ) 
+2026-10-01 - 17:42:15 [6]: [PYTHON JOB]: Found gettext "pt_BR" in "/usr/share/locale/pt_BR" 
+2026-10-01 - 17:42:15 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:42:15 [6]:     Starting job "Criando initramfs…" ( 38 / 43 ) 
+2026-10-01 - 17:42:15 [6]: virtual Calamares::JobResult InitramfsJob::exec()
+2026-10-01 - 17:42:15 [6]:     Updating initramfs with kernel "all" 
+2026-10-01 - 17:42:15 [6]:     .. Running QList("update-initramfs", "-k", "all", "-c", "-t") 
+2026-10-01 - 17:48:04 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:48:04 [6]:     Starting job "Run command '/usr/share/calamares/helpers/calamares-dpkg-unsafe-io -u'" ( 39 / 43 ) 
+2026-10-01 - 17:48:04 [6]:     .. Running QList("/bin/sh", "-c", "/usr/share/calamares/helpers/calamares-dpkg-unsafe-io -u") 
+2026-10-01 - 17:48:05 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:48:05 [6]:     Starting job "Run command '/usr/share/calamares/helpers/calamares-sources-media -u'" ( 40 / 43 ) 
+2026-10-01 - 17:48:05 [6]:     .. Running QList("/bin/sh", "-c", "/usr/share/calamares/helpers/calamares-sources-media -u") 
+2026-10-01 - 17:48:16 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:48:16 [6]:     Starting job "Run command '/usr/share/calamares/helpers/calamares-sources-final'" ( 41 / 43 ) 
+2026-10-01 - 17:48:16 [6]:     .. Running QList("/bin/sh", "-c", "/usr/share/calamares/helpers/calamares-sources-final") 
+2026-10-01 - 17:48:16 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:48:16 [6]:     Starting job "Run command '/usr/libexec/luma-live/luma-installer-cleanup'" ( 42 / 43 ) 
+2026-10-01 - 17:48:16 [6]:     .. Running QList("/bin/sh", "-c", "/usr/libexec/luma-live/luma-installer-cleanup") 
+2026-10-01 - 17:48:16 [6]: virtual void Calamares::JobThread::run()
+2026-10-01 - 17:48:16 [6]:     Starting job "Desmontando sistema de arquivos…" ( 43 / 43 ) 
+2026-10-01 - 17:48:16 [6]: Calamares::JobResult unmountTargetMounts(const QString&)
+2026-10-01 - 17:48:16 [6]:     Read 9 entries from "/tmp/calamares-root-pd2lee7p/" 
+2026-10-01 - 17:48:16 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/sys/firmware/efi/efivars") 
+2026-10-01 - 17:48:16 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:16 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:26 [2]: Calamares::Utils::ProcessResult Calamares::Utils::Runner::run()
+2026-10-01 - 17:48:26 [2]:     WARNING: Process "sync" timed out after 10000 ms. Output so far:
+
+2026-10-01 - 17:48:26 [2]: WARNING (Qt): QProcess: Destroyed while process ("env") is still running.
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/sys") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/run/udev") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/run/live/medium") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/run") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/proc") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/dev/pts") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/dev") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p/boot/efi") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("umount", "-lv", "/tmp/calamares-root-pd2lee7p") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("udevadm", "settle") 
+2026-10-01 - 17:48:27 [6]:     .. Running QList("sync") 
+2026-10-01 - 17:48:28 [6]: void Calamares::callQmlFunction(QQuickItem*, const char*)
+2026-10-01 - 17:48:28 [6]:     QML "onLeave()" is missing. 
+2026-10-01 - 17:48:28 [6]: void Config::doNotify(bool, bool)
+2026-10-01 - 17:48:28 [6]:     Notification not sent; completion: succeeded 
+2026-10-01 - 17:48:28 [6]: void {anonymous}::PowerManagementInterface::uninhibitSleep()
+2026-10-01 - 17:48:28 [6]:     Sleep was never inhibited. 

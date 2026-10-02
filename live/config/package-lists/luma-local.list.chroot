@@ -1,0 +1,7 @@
+# Pacotes do Luma (copiados para config/packages.chroot por scripts/build/build-iso.sh)
+luma-theme
+luma-session
+luma-firewall
+luma-ajustes
+# Só na sessão live (o instalador remove do sistema instalado)
+luma-live

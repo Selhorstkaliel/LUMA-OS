@@ -1,0 +1,63 @@
+#!/bin/sh
+# shellcheck source=/dev/null
+
+. /usr/lib/live/config.sh
+
+## Componente live-config(7) do Luma: sessão live sem bloqueio automático de tela nem suspensão.
+## Motivo (etapa 9): a instalação leva mais que o tempo de inatividade; a sessão live bloqueava a tela
+## pedindo uma senha que o usuário não conhece e podia suspender no meio da cópia. Vale só para o
+## usuário live: o pacote luma-live é removido pelo instalador e o sistema instalado bloqueia normalmente.
+
+Cmdline ()
+{
+	for _PARAMETER in ${LIVE_CONFIG_CMDLINE}
+	do
+		case "${_PARAMETER}" in
+			live-config.username=*|username=*)
+				LIVE_USERNAME="${_PARAMETER#*username=}"
+				;;
+		esac
+	done
+}
+
+Init ()
+{
+	if [ ! -d "/home/${LIVE_USERNAME}" ] || \
+	   component_was_executed "luma-live-session"
+	then
+		exit 0
+	fi
+
+	printf ' luma-live-session'
+}
+
+Config ()
+{
+	_DIR="/home/${LIVE_USERNAME}/.config"
+	mkdir -p "${_DIR}"
+
+cat > "${_DIR}/kscreenlockerrc" << EOF2
+[Daemon]
+Autolock=false
+LockOnResume=false
+EOF2
+
+cat > "${_DIR}/powerdevilrc" << EOF2
+[AC][SuspendAndShutdown]
+AutoSuspendAction=0
+
+[Battery][SuspendAndShutdown]
+AutoSuspendAction=0
+
+[LowBattery][SuspendAndShutdown]
+AutoSuspendAction=0
+EOF2
+
+	chown "${LIVE_USERNAME}:${LIVE_USERNAME}" "${_DIR}" "${_DIR}/kscreenlockerrc" "${_DIR}/powerdevilrc"
+
+	touch /var/lib/live/config/luma-live-session
+}
+
+Cmdline
+Init
+Config

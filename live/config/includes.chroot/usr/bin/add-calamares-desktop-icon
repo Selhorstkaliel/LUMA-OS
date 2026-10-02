@@ -1,0 +1,13 @@
+#!/bin/sh
+# Luma: coloca o atalho "Instalar o Luma" na área de trabalho da sessão live.
+# Substitui o script do calamares-settings-debian, que usa o caminho sem aspas e, em pt_BR
+# ("Área de trabalho"), cria as pastas "Área", "de" e "trabalho" na pasta pessoal.
+set -eu
+# Este script e o xdg-user-dirs-update iniciam na mesma fase do login. Se este rodar primeiro, a área
+# de trabalho ainda se chama "Desktop" e o atalho vai para uma pasta que a sessão não mostra (visto em
+# 1 de 3 inicializações na etapa 9). Criar as pastas aqui tira a dependência da ordem; repetir é inofensivo.
+if command -v xdg-user-dirs-update >/dev/null 2>&1; then xdg-user-dirs-update; fi
+DESKTOP="$(xdg-user-dir DESKTOP)"
+mkdir -p "$DESKTOP"
+cp /usr/share/applications/calamares-install-debian.desktop "$DESKTOP/"
+chmod +x "$DESKTOP/calamares-install-debian.desktop"

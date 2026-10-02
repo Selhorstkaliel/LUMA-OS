@@ -1,0 +1,117 @@
+luma-desktop (0.8.0) unstable; urgency=medium
+
+  * Novo pacote luma-windows: duplo clique em .exe e .msi abre pelo Wine
+    do Debian, com aviso no primeiro uso; melhor esforço, sem garantia
+    (decisão 0007).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 20:45:00 -0300
+
+luma-desktop (0.7.2) unstable; urgency=medium
+
+  * Imagem live: o atalho "Instalar o Luma" não depende mais da ordem de
+    início em relação à criação das pastas pessoais.
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 15:50:00 -0300
+
+luma-desktop (0.7.1) unstable; urgency=medium
+
+  * luma-live: passo final do instalador remove do sistema instalado a
+    configuração do instalador que não pertence a nenhum pacote
+    (/etc/calamares).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 12:40:00 -0300
+
+luma-desktop (0.7.0) unstable; urgency=medium
+
+  * Imagem live: instalador Calamares com a marca Luma, fuso inicial
+    America/Sao_Paulo, sem consulta de GeoIP, e usuários criados fora do
+    grupo "audio". Atalho "Instalar o Luma" corrigido para pastas com
+    espaço no nome. O instalador remove a si mesmo do sistema instalado.
+  * Novo pacote luma-live: a sessão live não bloqueia a tela nem suspende
+    durante a instalação (removido do sistema instalado).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 09:30:00 -0300
+
+luma-desktop (0.6.1) unstable; urgency=medium
+
+  * luma-session: ordem dos botões de janela como padrão de sistema
+    (/etc/xdg/kwinrc). luma-theme recomenda luma-ajustes (favorito do dock).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 02:40:00 -0300
+
+luma-desktop (0.6.0) unstable; urgency=medium
+
+  * Central de Controle (plasmoide org.luma.controlcenter): Wi-Fi,
+    Bluetooth, Não Perturbe, Espelhamento de Tela, brilho e volume.
+  * Novo pacote luma-ajustes: Ajustes > Aparência (claro/escuro, cor de
+    destaque, transparência, animações, tamanho do texto).
+  * luma-appearance aplica estilo do Plasma e reaplica a cor de destaque.
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 02:00:00 -0300
+
+luma-desktop (0.5.1) unstable; urgency=medium
+
+  * Decoração: título à esquerda (valor "Left") e sombra sem emendas.
+  * Fonte Inter como padrão de sistema em luma-session.
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 01:10:00 -0300
+
+luma-desktop (0.5.0) unstable; urgency=medium
+
+  * Visual dos mockups aprovados: cores medidas, wallpaper "Luma Ondas",
+    decoração Aurorae com botões vermelho/amarelo/verde à esquerda, fonte
+    Inter, ícones Papirus, barra superior com logotipo e menu do app, dock
+    maior com lixeira, lançador em grade.
+
+ -- Projeto Luma <luma-dev@example.invalid>  Thu, 01 Oct 2026 00:30:00 -0300
+
+luma-desktop (0.4.1) unstable; urgency=medium
+
+  * Etapa 8: ISO com tempo limite de 10 s no menu de boot. Pacotes sem
+    mudança funcional (versão alinhada à ISO).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 19:45:00 -0300
+
+luma-desktop (0.4.0) unstable; urgency=medium
+
+  * Etapa 7: novo pacote luma-firewall (ufw com entrada bloqueada, aplicado
+    uma vez; respeita configuração existente do administrador).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 18:10:00 -0300
+
+luma-desktop (0.3.0) unstable; urgency=medium
+
+  * Etapa 5: luma-session recomenda Discover, backend Flatpak e portal KDE
+    (decisão 0004; nenhum remoto Flatpak pré-configurado).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 17:20:00 -0300
+
+luma-desktop (0.2.0) unstable; urgency=medium
+
+  * Etapa 3: novo pacote luma-session (padrões para usuários novos e tela
+    de bloqueio).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 16:10:00 -0300
+
+luma-desktop (0.1.2) unstable; urgency=medium
+
+  * Layout define o papel de parede Luma (evita corrida com --resetLayout).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 15:40:00 -0300
+
+luma-desktop (0.1.1) unstable; urgency=medium
+
+  * luma-appearance: aplica esquema de cores e ícones explicitamente
+    (plasma-apply-lookandfeel do Plasma 6.3 não os aplica).
+  * Tokens de cor corrigidos após teste de contraste WCAG.
+  * luma-appearance: ícones "breeze" (padrão) são lidos como padrão quando
+    o Plasma remove a chave.
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 15:20:00 -0300
+
+luma-desktop (0.1.0) unstable; urgency=medium
+
+  * Etapa 2: pacote luma-theme (Look-and-Feel claro/escuro, esquemas de
+    cores, layout painel superior + dock, wallpaper Luma Aurora).
+
+ -- Projeto Luma <luma-dev@example.invalid>  Wed, 30 Sep 2026 15:00:00 -0300

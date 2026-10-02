@@ -1,0 +1,6 @@
+instalado
+volume após login: Volume: 0.40
+--- processos que abriram o controle da placa de som desde o boot:
+08:46:24.311 pid=3177 uid=teste ppid=2896 cmd=/usr/bin/wireplumber  pai=/usr/lib/systemd/systemd --user 
+08:46:25.507 pid=3618 uid=luma ppid=3430 cmd=/usr/bin/wireplumber  pai=/usr/lib/systemd/systemd --user 
+08:46:39.117 pid=3174 uid=teste ppid=2896 cmd=/usr/bin/pipewire  pai=/usr/lib/systemd/systemd --user 

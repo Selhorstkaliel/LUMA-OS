@@ -1,0 +1,4 @@
+inode/directory=org.kde.dolphin.desktop
+image/png=org.kde.gwenview.desktop
+application/pdf=okularApplication_pdf.desktop
+text/plain=org.kde.kate.desktop;org.kde.kwrite.desktop

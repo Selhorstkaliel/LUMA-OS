@@ -1,0 +1,29 @@
+[lab] SSH disponível
+info: PRETTY_NAME="Debian GNU/Linux 13 (trixie)" 6.12.111+deb13-amd64 kwin-wayland 4:6.3.6-1 plasma-workspace 4:6.3.6-2 
+PASSOU: Debian trixie instalado
+PASSOU: boot em modo UEFI
+PASSOU: Secure Boot ativo (shim/grub/kernel Debian)
+PASSOU: Plasma 6 instalado
+PASSOU: sessão Plasma Wayland disponível
+PASSOU: SDDM ativo
+PASSOU: sem unidades systemd com falha
+PASSOU: locale pt_BR e teclado br
+PASSOU: SSH recusa senha
+PASSOU: sudo exige senha (sem NOPASSWD)
+PASSOU: captura da tela de login
+[lab] VM desligada
+[lab] snapshot base-limpa já existe; nada feito
+PASSOU: snapshot-save repetido não duplica
+PASSOU: exatamente um snapshot base-limpa
+PASSOU: install repetido não reinstala
+PASSOU: create repetido não recria disco
+[lab] SSH disponível
+PASSOU: marcador criado
+[lab] VM desligada
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: restauração removeu o marcador
+PASSOU: SDDM ativo após restauração
+[lab] VM desligada
+falhas: 0
+exit=0

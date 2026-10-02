@@ -1,0 +1,54 @@
+lint OK (27 scripts)
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: agente QEMU responde (verificação sem rede)
+info: tela lógica 1829x1029; Volume: 0.40; perfil balanced
+PASSOU: tecla Aumentar volume (0.40 → 0.45)
+PASSOU: tecla Diminuir volume (0.45 → 0.35)
+PASSOU: tecla Mudo silencia
+PASSOU: tecla Mudo reativa
+PASSOU: rolar sobre o ícone de volume (0.35 → 0.45)
+captura: E4-01-popup-volume.png
+PASSOU: definir volume 0.63 para teste de persistência
+PASSOU: rede conectada (NetworkManager)
+captura: E4-02-popup-rede.png
+[lab] link de rede: off
+PASSOU: cabo desconectado: enp0s1 indisponível
+PASSOU: plasmashell estável sem rede
+captura: E4-03-sem-cabo.png
+[lab] link de rede: on
+[lab] SSH disponível
+PASSOU: cabo reconectado: conexão volta sozinha
+PASSOU: sessão remota sem privilégio: desconectar negado (Erro: a desconexão do dispositivo “enp0s1” (/org/freedesktop/NetworkManager/Devices/2) falhou: org.freedesktop.NetworkManager.network-control request failed: not authorized
+Erro: nem todos os dispositivos foram desconectados.)
+PASSOU: sessão local ativa desconecta a rede
+captura: E4-04-desconectado-pelo-usuario.png
+Connection timed out during banner exchange
+[lab] SSH disponível
+PASSOU: sessão local ativa reconecta
+PASSOU: perfil de energia alterado na sessão
+PASSOU: sem bateria: UPower só com dispositivo de exibição
+captura: E4-05-popup-energia.png
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+[lab] SSH disponível
+PASSOU: volume mantido após reinício
+PASSOU: perfil de energia mantido após reinício
+PASSOU: rede conectada após reinício
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+[lab] SSH disponível
+PASSOU: sem placa de som: nenhum dispositivo ALSA
+PASSOU: sem placa de som: plasmashell estável após tecla de volume
+captura: E4-06-sem-placa-de-som.png
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+PASSOU: sem placa de rede: sessão Plasma ativa
+PASSOU: sem placa de rede: NetworkManager sem ethernet
+captura: E4-07-sem-placa-de-rede.png
+[lab] SSH disponível
+PASSOU: placa de som de volta: volume preservado
+PASSOU: placa de rede de volta: conectada
+PENDENTE (hardware): Wi-Fi físico, Bluetooth, brilho de painel interno e bateria real — sem dispositivo na VM.
+falhas: 0
+exit=0

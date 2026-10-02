@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: luma-desktop
+
+Files: *
+Copyright: 2026 Projeto Luma
+License: GPL-2+
+ On Debian systems, the full text is in /usr/share/common-licenses/GPL-2.
+
+Files: theme/wallpapers/*
+Copyright: 2026 Projeto Luma
+License: CC-BY-SA-4.0
+ Creative Commons Attribution-ShareAlike 4.0 International.
+ Full text: https://creativecommons.org/licenses/by-sa/4.0/legalcode

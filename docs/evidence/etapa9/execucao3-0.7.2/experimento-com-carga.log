@@ -1,0 +1,26 @@
+ 16:51:02 up  6:35,  1 user,  load average: 0.66, 0.53, 1.13
+--- tentativa 4 com carga 16:51:02
+partições: vivo
+formatar: vivo
+criptografar: vivo
+senha1: vivo
+senha2: vivo
+captura: c1-4.png
+cancelado: vivo
+--- tentativa 5 com carga 16:53:39
+partições: vivo
+formatar: vivo
+criptografar: vivo
+senha1: vivo
+senha2: vivo
+captura: c1-5.png
+inst_click: janela do instalador não encontrada
+inst_click: janela do instalador não encontrada
+cancelado: vivo
+--- tentativa 6 com carga 16:56:25
+não abriu
+ 16:59:46 up  6:43,  1 user,  load average: 6.95, 6.38, 4.01
+out 01 16:44:37 localhost.localdomain systemd[1]: Listening on systemd-coredump.socket - Process Core Dump Socket.
+out 01 16:50:30 luma qemu-ga[1365]: info: guest-exec called: "/bin/sh -c ls /var/lib/systemd/coredump 2>/dev/null | head; command -v coredumpctl; ls /root/.cache/calamares/ ; journalctl -b --no-pager | grep -i -E "segfault|calamares.*(core|crash)" | tail -5"
+out 01 16:59:46 luma qemu-ga[1365]: info: guest-exec called: "/bin/sh -c journalctl -b --no-pager | grep -i -E "segfault|core dump|calamares\[" | tail -8; coredumpctl list --no-pager 2>&1 | tail -4"
+No coredumps found.

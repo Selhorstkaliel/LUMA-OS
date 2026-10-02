@@ -1,0 +1,3 @@
+Diagnóstico falha4 (2026-09-30): XDG_CONFIG_DIRS do plasmashell=/home/teste/.config/kdedefaults:/etc/xdg:/usr/share/desktop-base/kf5-settings
+kdedefaults/kdeglobals contém ColorScheme e Icons do Look-and-Feel; valores iguais são removidos de ~/.config/kdeglobals.
+Com o mesmo XDG_CONFIG_DIRS, kreadconfig6 retorna os valores esperados. Correção: luma-lab-sessenv importa XDG_CONFIG_DIRS da sessão.

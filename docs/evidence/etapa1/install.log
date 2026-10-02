@@ -1,0 +1,9 @@
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] SHA256SUMS assinado por DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+[lab] debian-13.7.0-amd64-netinst.iso já presente e íntegra; download ignorado
+[lab] ISO de instalação: /srv/luma-lab/iso/luma-lab-install-lab-desktop.iso
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco /srv/luma-lab/vms/lab-desktop/disk.qcow2 já existe; nada criado
+[lab] instalando (sem interação; pode levar 30–90 min). Serial: /srv/luma-lab/vms/lab-desktop/install-serial.log; tela: VNC 127.0.0.1:5900
+[lab] instalador desligou a VM
+exit=0

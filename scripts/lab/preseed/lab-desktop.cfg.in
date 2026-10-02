@@ -1,0 +1,67 @@
+#_preseed_V1
+# Instalação automática da VM de laboratório lab-desktop (Debian 13 trixie + Plasma).
+# Placeholders @...@ são preenchidos por lab.sh build-iso. Nunca committar o arquivo renderizado.
+
+d-i debian-installer/locale string pt_BR.UTF-8
+d-i localechooser/supported-locales multiselect pt_BR.UTF-8, en_US.UTF-8
+d-i keyboard-configuration/xkb-keymap select br
+
+d-i netcfg/choose_interface select auto
+d-i netcfg/get_hostname string lab-desktop
+d-i netcfg/get_domain string lan
+d-i netcfg/hostname string lab-desktop
+d-i hw-detect/load_firmware boolean false
+
+d-i mirror/country string manual
+d-i mirror/http/hostname string deb.debian.org
+d-i mirror/http/directory string /debian
+d-i mirror/http/proxy string
+d-i mirror/suite string trixie
+
+# Sem login de root; o primeiro usuário recebe sudo. Senha aleatória por laboratório (não é senha padrão).
+d-i passwd/root-login boolean false
+d-i passwd/user-fullname string Luma Lab
+d-i passwd/username string luma
+d-i passwd/user-password-crypted password @PASSWORD_HASH@
+
+d-i clock-setup/utc boolean true
+d-i time/zone string America/Sao_Paulo
+d-i clock-setup/ntp boolean true
+
+# Apenas o disco virtual da VM
+d-i partman-auto/disk string /dev/vda
+d-i partman-auto/method string regular
+d-i partman-auto/choose_recipe select atomic
+d-i partman-efi/non_efi_system boolean true
+d-i partman-partitioning/confirm_write_new_label boolean true
+d-i partman/choose_partition select finish
+d-i partman/confirm boolean true
+d-i partman/confirm_nooverwrite boolean true
+d-i partman-lvm/device_remove_lvm boolean true
+d-i partman-md/device_remove_md boolean true
+
+d-i apt-setup/cdrom/set-first boolean false
+d-i apt-setup/disable-cdrom-entries boolean true
+d-i apt-setup/non-free-firmware boolean true
+d-i apt-setup/services-select multiselect security, updates
+
+tasksel tasksel/first multiselect standard, ssh-server, desktop, kde-desktop
+d-i pkgsel/include string sudo spice-vdagent qemu-guest-agent
+d-i pkgsel/upgrade select full-upgrade
+popularity-contest popularity-contest/participate boolean false
+
+d-i grub-installer/only_debian boolean true
+d-i grub-installer/bootdev string default
+
+# Acesso de desenvolvimento: somente chave SSH, sem senha via SSH
+d-i preseed/late_command string \
+  mkdir -p /target/home/luma/.ssh; \
+  echo '@SSH_PUBKEY@' > /target/home/luma/.ssh/authorized_keys; \
+  in-target chown -R luma:luma /home/luma/.ssh; \
+  in-target chmod 0700 /home/luma/.ssh; \
+  in-target chmod 0600 /home/luma/.ssh/authorized_keys; \
+  mkdir -p /target/etc/ssh/sshd_config.d; \
+  printf 'PasswordAuthentication no\nKbdInteractiveAuthentication no\nPermitRootLogin no\n' > /target/etc/ssh/sshd_config.d/10-luma-lab.conf
+
+d-i finish-install/reboot_in_progress note
+d-i debian-installer/exit/poweroff boolean true

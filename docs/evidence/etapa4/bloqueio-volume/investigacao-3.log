@@ -1,0 +1,53 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+== inicial: Volume: 0.40 | 
+== após definir 63%: Volume: 0.63 | channelVolumes":[0.250035, 0.250035]
+== (a) reiniciar só o wireplumber na mesma sessão
+   Volume: 0.63 | channelVolumes":[0.250035, 0.250035]
+== (b) sem login automático: valor no disco antes de qualquer login após reiniciar
+   antes de desligar: channelVolumes":[0.250035, 0.250035]
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+   após boot, ninguém logado ( 106 sddm no active 1000 luma no active ):
+   arquivo: channelVolumes":[0.250035, 0.250035]
+== (c) primeira sessão do usuário após o boot (via SSH), com depuração
+Volume: 1.00
+channelVolumes":[0.250035, 0.250035]
+--- log
+pw.metadata: 0x55fbe25ef680: add id:0 key:device.restore-profile type:Spa:String:JSON value:{
+    description = "Whether to restore device profile or not"
+pw.metadata: 0x55fbe25ef680: add id:0 key:device.restore-routes type:Spa:String:JSON value:{
+    description = "Whether to restore device routes or not"
+pw.metadata: 0x55fbe25ef680: add id:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:{
+    description = "The default volume for sink devices"
+pw.metadata: 0x55fbe25ef680: add id:0 key:device.routes.default-source-volume type:Spa:String:JSON value:{
+    description = "The default volume for source devices"
+    description = "The volume level to apply when ducking (= reducing volume for a higher priority stream to be audible) in the role-based linking policy"
+pw.metadata: 0x55fbe25ef680: add id:0 key:node.stream.restore-props type:Spa:String:JSON value:{
+    description = "Whether to restore properties on stream nodes or not"
+pw.metadata: 0x55fbe25ef680: add id:0 key:node.stream.restore-target type:Spa:String:JSON value:{
+    description = "Whether to restore target on stream nodes or not"
+pw.metadata: 0x55fbe25ef680: add id:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:{
+    description = "The default volume for playback nodes"
+pw.metadata: 0x55fbe25ef680: add id:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:{
+    description = "The default volume for capture nodes"
+pw.metadata: 0x55fbe25ef680: add id:0 key:node.restore-default-targets type:Spa:String:JSON value:{
+    description = "Whether to restore default targets or not"
+pw.metadata: 0x55fbe2631450: add id:0 key:device.restore-profile type:Spa:String:JSON value:true
+pw.metadata: 0x55fbe2631450: add id:0 key:device.restore-routes type:Spa:String:JSON value:true
+pw.metadata: 0x55fbe2631450: add id:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:0.064
+pw.metadata: 0x55fbe2631450: add id:0 key:device.routes.default-source-volume type:Spa:String:JSON value:1.0
+pw.metadata: 0x55fbe2631450: add id:0 key:node.stream.restore-props type:Spa:String:JSON value:true
+pw.metadata: 0x55fbe2631450: add id:0 key:node.stream.restore-target type:Spa:String:JSON value:true
+pw.metadata: 0x55fbe2631450: add id:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:1.0
+pw.metadata: 0x55fbe2631450: add id:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:1.0
+pw.metadata: 0x55fbe2631450: add id:0 key:node.restore-default-targets type:Spa:String:JSON value:true
+wp-plugin: <WpLuaScript:0x55fbe2675600> enabling plugin 'script:device/select-routes.lua'
+wp-plugin: <WpLuaScript:0x55fbe2699c10> enabling plugin 'script:device/apply-routes.lua'
+wp-plugin: <WpLuaScript:0x55fbe26910a0> enabling plugin 'script:device/find-best-routes.lua'
+wp-plugin: <WpLuaScript:0x55fbe26ae280> enabling plugin 'script:device/state-routes.lua'
+s-node: <WpNode:35:0x55fbe2670b00> restore values from Audio/Sink:node.name:auto_null
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+exit=0

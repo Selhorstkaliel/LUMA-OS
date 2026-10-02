@@ -1,0 +1,63 @@
+Source: luma-desktop
+Section: x11
+Priority: optional
+Maintainer: Projeto Luma <luma-dev@example.invalid>
+Build-Depends: debhelper-compat (= 13), librsvg2-bin, python3
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: luma-theme
+Architecture: all
+Depends: ${misc:Depends}, plasma-workspace (>= 4:6.3), kwin-common (>= 4:6.3), breeze, breeze-cursor-theme, papirus-icon-theme, fonts-inter,
+ plasma-nm, plasma-pa, qml6-module-org-kde-bluezqt, qml6-module-org-kde-kcmutils
+Recommends: luma-ajustes
+Description: Luma desktop theme for KDE Plasma
+ Global themes (light and dark), color schemes, panel layout with a top
+ bar and a floating dock, and the Luma Aurora wallpaper. Reuses Breeze for
+ widgets, window decorations and icons.
+
+Package: luma-session
+Architecture: all
+Depends: ${misc:Depends}, luma-theme (= ${source:Version}), plasma-workspace (>= 4:6.3), fonts-inter
+Recommends: plasma-discover, plasma-discover-backend-flatpak, xdg-desktop-portal-kde
+Description: Luma default session settings for KDE Plasma
+ Makes the Luma global theme, panel layout and lock screen the defaults for
+ new users, overriding the Debian defaults through /etc/xdg. Settings users
+ have already chosen are kept.
+
+Package: luma-firewall
+Architecture: all
+Depends: ${misc:Depends}, ufw
+Recommends: plasma-firewall
+Description: Luma default firewall policy
+ Enables ufw once with incoming connections denied and outgoing allowed,
+ unless the administrator has already enabled it. Later changes made by the
+ administrator are kept.
+
+Package: luma-ajustes
+Architecture: all
+Depends: ${misc:Depends}, python3, python3-pyside6.qtquick, python3-pyside6.qtqml,
+ qml6-module-org-kde-kirigami, luma-theme (= ${source:Version}), kde-cli-tools, plasma-workspace
+Description: Luma settings app (appearance)
+ Light or dark appearance, accent color, transparency, animations and text
+ size, using the existing Plasma tools. Other sections open the matching
+ System Settings modules.
+
+Package: luma-live
+Architecture: all
+Depends: ${misc:Depends}, live-config, calamares
+Description: Luma live session settings
+ live-config component that keeps the live session from locking the screen
+ or suspending while the installer runs, and an installer step that completes
+ the UEFI removable-media boot path of the installed system. Only meant for
+ the live image; the installer removes this package from the installed system.
+
+Package: luma-windows
+Architecture: all
+Depends: ${misc:Depends}, wine, wine64, kdialog
+Recommends: wine32
+Description: Luma best-effort launcher for Windows programs
+ Opens .exe and .msi files with Debian's Wine on double click, after a
+ first-use warning. Nothing is promised about the program working, and Wine
+ is not a security boundary: the program runs as the user with access to the
+ same files. 32-bit programs need wine32 from the i386 architecture.

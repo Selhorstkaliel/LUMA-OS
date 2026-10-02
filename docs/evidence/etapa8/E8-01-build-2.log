@@ -1,0 +1,13 @@
+lint OK (26 scripts)
+running with root privileges is not recommended!
+/srv/luma-lab/debs/luma-firewall_0.4.1_all.deb
+/srv/luma-lab/debs/luma-session_0.4.1_all.deb
+/srv/luma-lab/debs/luma-theme_0.4.1_all.deb
+iso: luma-0.4.1-amd64.iso
+sha256: 9b3a59faad0823f8144f01e310a9fd13c9443a1f18a028ee7e7c5ed811f89846
+tamanho: 2856443904
+pacotes: 2209
+live-build: 1:20250505+deb13u1
+duração_s: 5022
+data: 2026-09-30T23:51:18Z
+exit=0

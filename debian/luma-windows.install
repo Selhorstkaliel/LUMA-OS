@@ -1,0 +1,3 @@
+windows/luma-windows-run usr/bin/
+windows/org.luma.windows-run.desktop usr/share/applications/
+windows/org.luma.windows-remover.desktop usr/share/applications/

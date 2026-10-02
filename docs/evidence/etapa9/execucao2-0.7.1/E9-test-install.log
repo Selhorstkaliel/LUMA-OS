@@ -1,0 +1,43 @@
+PASSOU: checksum da ISO confere
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco criado: /srv/luma-lab/vms/lab-install/disk.qcow2 (32G, alocação dinâmica)
+[lab] variáveis UEFI criadas a partir de /usr/share/OVMF/OVMF_VARS_4M.ms.fd
+PASSOU: ISO inicia com Secure Boot ativo
+PASSOU: instalador com a marca Luma
+PASSOU: versão 0.7.1 na marca do instalador
+PASSOU: usuários novos fora do grupo audio
+PASSOU: fuso inicial America/Sao_Paulo, sem GeoIP
+PASSOU: carregador de boot já na imagem (instalação sem internet)
+PASSOU: pacote luma-live 0.7.1 presente
+FALHOU: atalho "Instalar o Luma" na área de trabalho
+PASSOU: sem pastas erradas na pasta pessoal (Área, de, trabalho)
+PASSOU: sessão live sem bloqueio automático de tela
+captura: e9-01-live.png
+PASSOU: instalador abre pela sessão (sem pedir senha)
+captura: e9-02-cancelar-localizacao.png
+captura: e9-02-cancelar-particoes.png
+captura: e9-02-cancelar-usuario.png
+captura: e9-02-cancelar-resumo.png
+captura: e9-02-cancelar-dialogo.png
+info: diálogo de cancelamento: 684 444 449 143
+PASSOU: cancelar encerra o instalador
+PASSOU: disco intacto após cancelar (vda disk ;)
+captura: e9-03-corte-localizacao.png
+captura: e9-03-corte-particoes.png
+captura: e9-03-corte-usuario.png
+captura: e9-03-corte-resumo.png
+PASSOU: instalação iniciada (destino montado)
+PASSOU: cópia em andamento antes do corte
+captura: e9-03-antes-do-corte.png
+PASSOU: disco pela metade não inicia (sem ISO)
+captura: e9-03-sem-boot.png
+info: disco antes da instalação: vda disk ;├─vda1 part vfat;├─vda2 part ext4;└─vda3 part swap;
+PASSOU: rede desligada durante a instalação
+captura: e9-04-localizacao.png
+captura: e9-04-particoes.png
+captura: e9-04-usuario.png
+captura: e9-04-resumo.png
+PASSOU: instalação iniciada
+captura: e9-04-instalando.png
+scripts/lab/tests/test-install.sh: line 18: 236409 Hangup                  BOOT_ISO="$ISO" "$LAB" run >> "$EV/vm-run.log" 2>&1
+scripts/lab/tests/test-install.sh: line 18: 237469 Hangup                  "$LAB" ga "$1"

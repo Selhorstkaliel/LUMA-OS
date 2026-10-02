@@ -1,0 +1,54 @@
+PASSOU: checksum da ISO confere
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco criado: /srv/luma-lab/vms/lab-install/disk.qcow2 (32G, alocação dinâmica)
+[lab] variáveis UEFI criadas a partir de /usr/share/OVMF/OVMF_VARS_4M.ms.fd
+info: disco antes da instalação: vda disk ;
+PASSOU: rede desligada durante a instalação
+captura: e9-luks-04-localizacao.png
+captura: e9-luks-04-particoes.png
+captura: e9-luks-04-usuario.png
+captura: e9-luks-04-resumo.png
+PASSOU: instalação iniciada
+captura: e9-luks-04-instalando.png
+PASSOU: instalação terminou em 26 min
+captura: e9-luks-04-concluido.png
+PASSOU: instalador relata sucesso
+PASSOU: sessão live não bloqueou a tela durante a instalação
+captura: e9-luks-05-pedido-senha-disco.png
+PASSOU: sistema instalado inicia sem a ISO
+captura: e9-luks-05-tela-de-login.png
+PASSOU: não é sessão live
+PASSOU: Secure Boot ativo no sistema instalado
+PASSOU: usuário criado, administrador (sudo)
+PASSOU: usuário fora do grupo audio
+PASSOU: conta root sem senha (bloqueada)
+PASSOU: senha do usuário definida
+PASSOU: sem login automático
+PASSOU: fuso America/Sao_Paulo
+PASSOU: idioma e formatos pt_BR
+PASSOU: teclado br
+PASSOU: pacotes live e instalador removidos
+FALHOU: sem restos do instalador
+PASSOU: nenhuma fonte APT trusted=yes nem da mídia
+PASSOU: firewall ativo (deny incoming)
+PASSOU: nenhum serviço com falha
+PASSOU: caminho de boot reserva completo (EFI/BOOT)
+PASSOU: swap ativa
+PASSOU: pacote luma-theme 0.7.0 instalado
+PASSOU: pacote luma-session 0.7.0 instalado
+PASSOU: pacote luma-firewall 0.7.0 instalado
+PASSOU: pacote luma-ajustes 0.7.0 instalado
+PASSOU: raiz em volume cifrado (LUKS)
+PASSOU: swap em volume cifrado
+PASSOU: nenhuma partição ext4/swap em claro
+PASSOU: login com a senha escolhida no instalador
+captura: e9-luks-06-desktop.png
+PASSOU: aparência Luma na conta nova
+PASSOU: áudio disponível pela sessão (sem grupo audio)
+PASSOU: rede de volta
+PASSOU: apt-get update sem erros nem avisos (fontes assinadas)
+PASSOU: atualização do sistema concluída (0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.)
+PASSOU: instalar pacote do repositório assinado
+PASSOU: base de pacotes íntegra após atualizar
+falhas: 1
+exit=1

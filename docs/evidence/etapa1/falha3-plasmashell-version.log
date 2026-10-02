@@ -1,0 +1,39 @@
+[lab] SSH disponível
+qt.qpa.xcb: could not connect to display 
+qt.qpa.plugin: From 6.5.0, xcb-cursor0 or libxcb-cursor0 is needed to load the Qt xcb platform plugin.
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: vkkhrdisplay, offscreen, linuxfb, wayland-egl, wayland, minimal, xcb, minimalegl, vnc, eglfs.
+
+bash, linha 1:  1028 Abortado                (imagem do núcleo gravada)plasmashell --version
+QThreadStorage: Thread 0x55a639c374c0 exited after QThreadStorage 1 destroyed
+QThreadStorage: Thread 0x55a639c374c0 exited after QThreadStorage 0 destroyed
+info: PRETTY_NAME="Debian GNU/Linux 13 (trixie)" 6.12.111+deb13-amd64 kwin 6.3.6 
+PASSOU: Debian trixie instalado
+PASSOU: boot em modo UEFI
+PASSOU: Secure Boot ativo (shim/grub/kernel Debian)
+FALHOU: Plasma 6 instalado
+PASSOU: sessão Plasma Wayland disponível
+PASSOU: SDDM ativo
+PASSOU: sem unidades systemd com falha
+PASSOU: locale pt_BR e teclado br
+PASSOU: SSH recusa senha
+PASSOU: sudo exige senha (sem NOPASSWD)
+PASSOU: captura da tela de login
+[lab] VM desligada
+[lab] snapshot base-limpa criado
+PASSOU: snapshot-save repetido não duplica
+PASSOU: exatamente um snapshot base-limpa
+PASSOU: install repetido não reinstala
+PASSOU: create repetido não recria disco
+[lab] SSH disponível
+PASSOU: marcador criado
+[lab] VM desligada
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: restauração removeu o marcador
+PASSOU: SDDM ativo após restauração
+[lab] VM desligada
+falhas: 1
+exit=1

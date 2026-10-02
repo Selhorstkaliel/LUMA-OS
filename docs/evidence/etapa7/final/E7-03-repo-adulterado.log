@@ -1,0 +1,43 @@
+Get:1 file:/srv/luma-teste-repos/adulterado ./ InRelease [1093 B]
+Get:1 file:/srv/luma-teste-repos/adulterado ./ InRelease [1093 B]
+Get:2 file:/srv/luma-teste-repos/adulterado ./ Packages [540 B]
+Err:2 file:/srv/luma-teste-repos/adulterado ./ Packages
+  Hash Sum mismatch
+  Hashes of expected file:
+   - Filesize:540 [weak]
+   - SHA512:7cc9f8eb2bc8fc048ea200b3b3c654da8122f0543cf7f4e89ee28d372f7f1a2d0c816193510a6ed67c80dcac5e73027ab3a375370c675bc901c6496d9c55eb29
+   - SHA256:d624cc0b90e60a3e824e791745c103af73003947160070b6066c66e06dbb4ecf
+   - SHA1:a6e26aa524f21f77374da5ef5e1f66c8cd36450d [weak]
+   - MD5Sum:7f638d4766337a48cf2560e371781223 [weak]
+  Hashes of received file:
+   - SHA512:1ad4616638c11c9470cd0f3fb6856b08aa8aef8fe1f0b57135c59329af1d0228df6c00643e77f265c3175344455379204a391f6013ad0c0969d6ba9294308330
+   - SHA256:4c1f6084a0c88632a70cdbc0cee8631f25df8d332c7f384c63460a0af38c20c8
+   - SHA1:b1dfdef554198f3e4ff2bc87e0f600ee4c895d63 [weak]
+   - MD5Sum:d14af2c4c5903a20ee9ba970403511e9 [weak]
+   - Filesize:603 [weak]
+  Last modification reported: Thu, 01 Oct 2026 11:06:44 +0000
+  Release file created at: Thu, 01 Oct 2026 11:06:44 +0000
+Reading package lists...
+E: Failed to fetch file:/srv/luma-teste-repos/adulterado/./Packages  Hash Sum mismatch
+   Hashes of expected file:
+    - Filesize:540 [weak]
+    - SHA512:7cc9f8eb2bc8fc048ea200b3b3c654da8122f0543cf7f4e89ee28d372f7f1a2d0c816193510a6ed67c80dcac5e73027ab3a375370c675bc901c6496d9c55eb29
+    - SHA256:d624cc0b90e60a3e824e791745c103af73003947160070b6066c66e06dbb4ecf
+    - SHA1:a6e26aa524f21f77374da5ef5e1f66c8cd36450d [weak]
+    - MD5Sum:7f638d4766337a48cf2560e371781223 [weak]
+   Hashes of received file:
+    - SHA512:1ad4616638c11c9470cd0f3fb6856b08aa8aef8fe1f0b57135c59329af1d0228df6c00643e77f265c3175344455379204a391f6013ad0c0969d6ba9294308330
+    - SHA256:4c1f6084a0c88632a70cdbc0cee8631f25df8d332c7f384c63460a0af38c20c8
+    - SHA1:b1dfdef554198f3e4ff2bc87e0f600ee4c895d63 [weak]
+    - MD5Sum:d14af2c4c5903a20ee9ba970403511e9 [weak]
+    - Filesize:603 [weak]
+   Last modification reported: Thu, 01 Oct 2026 11:06:44 +0000
+   Release file created at: Thu, 01 Oct 2026 11:06:44 +0000
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+UPDATE_RC=100
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package luma-teste-assinatura
+INSTALL_RC=100
+NAO_INSTALADO

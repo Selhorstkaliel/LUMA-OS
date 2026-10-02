@@ -1,0 +1,3 @@
+[lab] ERRO: VM não está em execução
+FALHOU: SSH não respondeu após boot
+exit=1

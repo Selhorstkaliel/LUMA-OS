@@ -1,0 +1,17 @@
+#!/bin/sh
+# Luma: completa o caminho de boot reserva do UEFI (EFI/BOOT) no sistema recém-instalado.
+# O Calamares copia só o shim para EFI/BOOT/BOOTX64.EFI; sem o GRUB e o fallback ao lado, o disco não
+# inicia quando a entrada de boot da NVRAM se perde (firmware redefinido, disco movido de máquina,
+# boot por mídia externa em alguns firmwares) — reproduzido na etapa 9. Usa o mecanismo do próprio
+# Debian (grub-install --force-extra-removable) e grava a opção no debconf para as atualizações do GRUB.
+# Uso: luma-efi-fallback [RAIZ_DO_SISTEMA_INSTALADO]; sem argumento, usa a raiz montada pelo Calamares.
+set -eu
+CHROOT="${1:-$(findmnt -rn -o TARGET | grep -m1 '^/tmp/calamares-root-[^/]*$' || true)}"
+[ -n "$CHROOT" ] || { echo "luma-efi-fallback: raiz do sistema instalado não encontrada" >&2; exit 1; }
+# Só UEFI: em BIOS não existe caminho reserva
+[ -d /sys/firmware/efi ] || exit 0
+echo "grub-efi-amd64 grub2/force_efi_extra_removable boolean true" | chroot "$CHROOT" debconf-set-selections
+# --no-nvram: a entrada de boot já foi criada pelo módulo bootloader; aqui só os arquivos em EFI/BOOT
+chroot "$CHROOT" grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=debian \
+	--force-extra-removable --no-nvram
+ls "$CHROOT/boot/efi/EFI/BOOT"

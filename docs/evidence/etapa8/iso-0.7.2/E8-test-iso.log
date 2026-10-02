@@ -1,0 +1,28 @@
+PASSOU: checksum da ISO confere
+info: iso: luma-0.7.2-amd64.iso sha256: 74697ee6c141e8beb6381b6824c6f5e2101501e08dd464bb3f59387ab9995369 tamanho: 2937483264 pacotes: 2240 live-build: 1:20250505+deb13u1 duração_s: 2767 data: 2026-10-01T19:26:26Z 
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco criado: /srv/luma-lab/vms/lab-live/disk.qcow2 (64G, alocação dinâmica)
+[lab] variáveis UEFI criadas a partir de /usr/share/OVMF/OVMF_VARS_4M.ms.fd
+PASSOU: ISO iniciou e o agente responde
+PASSOU: sessão Plasma do usuário live ativa
+captura: E8-02-desktop-live.png
+PASSOU: boot em modo UEFI
+PASSOU: Secure Boot ativo (shim/GRUB/kernel assinados pelo Debian)
+PASSOU: sistema live (live-boot)
+PASSOU: pacote luma-theme 0.7.2 presente
+PASSOU: pacote luma-session 0.7.2 presente
+PASSOU: pacote luma-firewall 0.7.2 presente
+PASSOU: pacote luma-ajustes 0.7.2 presente
+PASSOU: pacote luma-live 0.7.2 presente
+PASSOU: calamares presente (instalação: test-install.sh)
+PASSOU: locale pt_BR
+PASSOU: teclado br
+PASSOU: LookAndFeel Luma no live
+PASSOU: esquema LumaLight no live
+PASSOU: painel superior e dock
+PASSOU: firewall ativo no live (serviço de 1º boot)
+PASSOU: Dolphin abre
+PASSOU: Konsole abre
+captura: E8-03-apps-live.png
+falhas: 0
+exit=0

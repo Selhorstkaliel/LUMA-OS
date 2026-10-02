@@ -1,0 +1,5 @@
+grupos: luma=[luma cdrom floppy sudo audio dip video plugdev users netdev scanner bluetooth lpadmin] teste=[teste]
+CONTROLE: luma no grupo audio      → após reinício (definido 63%): Volume: 0.40 | channelVolumes":[0.064563, 0.064563]
+TESTE: luma fora do grupo audio    → após reinício (definido 63%): Volume: 0.63 | channelVolumes":[0.250035, 0.250035]
+TESTE 2: outro valor               → após reinício (definido 27%): Volume: 0.27 | channelVolumes":[0.019681, 0.019681]
+wireplumber em execução: teste    /usr/bin/wireplumber;luma     /usr/bin/wireplumber;

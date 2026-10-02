@@ -1,0 +1,8 @@
+shellcheck-ok
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] SHA256SUMS assinado por DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+[lab] debian-13.7.0-amd64-netinst.iso já presente e íntegra; download ignorado
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] SHA256SUMS assinado por DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+[lab] debian-13.7.0-amd64-netinst.iso já presente e íntegra; download ignorado
+exit=0

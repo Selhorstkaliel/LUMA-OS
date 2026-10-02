@@ -1,0 +1,96 @@
+PASSOU: checksum da ISO confere
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco criado: /srv/luma-lab/vms/lab-install/disk.qcow2 (32G, alocação dinâmica)
+[lab] variáveis UEFI criadas a partir de /usr/share/OVMF/OVMF_VARS_4M.ms.fd
+PASSOU: ISO inicia com Secure Boot ativo
+PASSOU: instalador com a marca Luma
+PASSOU: versão 0.7.2 na marca do instalador
+PASSOU: usuários novos fora do grupo audio
+PASSOU: fuso inicial America/Sao_Paulo, sem GeoIP
+PASSOU: carregador de boot já na imagem (instalação sem internet)
+PASSOU: pacote luma-live 0.7.2 presente
+PASSOU: atalho "Instalar o Luma" na área de trabalho (1ª inicialização)
+PASSOU: sem pastas erradas na pasta pessoal (1ª inicialização)
+PASSOU: sessão live sem bloqueio automático de tela
+captura: e9-01-live.png
+PASSOU: instalador abre pela sessão (sem pedir senha)
+captura: e9-02-cancelar-localizacao.png
+captura: e9-02-cancelar-particoes.png
+captura: e9-02-cancelar-usuario.png
+captura: e9-02-cancelar-resumo.png
+captura: e9-02-cancelar-dialogo.png
+PASSOU: cancelar encerra o instalador
+PASSOU: disco intacto após cancelar (vda disk ;)
+captura: e9-03-corte-localizacao.png
+captura: e9-03-corte-particoes.png
+captura: e9-03-corte-usuario.png
+captura: e9-03-corte-resumo.png
+PASSOU: instalação iniciada (destino montado)
+PASSOU: cópia em andamento antes do corte
+captura: e9-03-antes-do-corte.png
+PASSOU: disco pela metade não inicia (sem ISO)
+captura: e9-03-sem-boot.png
+PASSOU: atalho "Instalar o Luma" na área de trabalho (inicialização da instalação)
+PASSOU: sem pastas erradas na pasta pessoal (inicialização da instalação)
+info: disco antes da instalação: vda disk ;├─vda1 part vfat;├─vda2 part ext4;└─vda3 part swap;
+PASSOU: rede desligada durante a instalação
+captura: e9-04-localizacao.png
+captura: e9-04-particoes.png
+captura: e9-04-usuario.png
+captura: e9-04-resumo.png
+PASSOU: instalação iniciada
+captura: e9-04-instalando.png
+PASSOU: instalação terminou em 26 min
+captura: e9-04-concluido.png
+PASSOU: instalador relata sucesso
+PASSOU: sessão live não bloqueou a tela durante a instalação
+PASSOU: sistema instalado inicia sem a ISO
+captura: e9-05-tela-de-login.png
+PASSOU: não é sessão live
+PASSOU: Secure Boot ativo no sistema instalado
+PASSOU: usuário criado, administrador (sudo)
+PASSOU: usuário fora do grupo audio
+PASSOU: conta root sem senha (bloqueada)
+PASSOU: senha do usuário definida
+PASSOU: sem login automático
+PASSOU: fuso America/Sao_Paulo
+PASSOU: idioma e formatos pt_BR
+PASSOU: teclado br
+PASSOU: pacotes live e instalador removidos
+PASSOU: sem restos do instalador
+PASSOU: log do instalador (com hash de senha) não fica no sistema instalado
+PASSOU: nenhuma fonte APT trusted=yes nem da mídia
+PASSOU: firewall ativo (deny incoming)
+PASSOU: nenhum serviço com falha
+PASSOU: caminho de boot reserva completo (EFI/BOOT)
+PASSOU: swap ativa
+PASSOU: pacote luma-theme 0.7.2 instalado
+PASSOU: pacote luma-session 0.7.2 instalado
+PASSOU: pacote luma-firewall 0.7.2 instalado
+PASSOU: pacote luma-ajustes 0.7.2 instalado
+PASSOU: login com a senha escolhida no instalador
+captura: e9-06-desktop.png
+PASSOU: aparência Luma na conta nova
+PASSOU: áudio disponível pela sessão (sem grupo audio)
+PASSOU: rede de volta
+PASSOU: apt-get update sem erros nem avisos (fontes assinadas)
+PASSOU: atualização do sistema concluída (0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.)
+PASSOU: instalar pacote do repositório assinado
+PASSOU: base de pacotes íntegra após atualizar
+captura: e9-08-grub-recovery.png
+captura: e9-08-recovery-console.png
+PASSOU: modo de recuperação ativo (rescue.target)
+PASSOU: modo de recuperação não dá shell de root sem senha
+captura: e9-08-apos-enter.png
+FALHOU: sistema não voltou à tela gráfica após o modo de recuperação
+PASSOU: atalho "Instalar o Luma" na área de trabalho (inicialização do resgate)
+PASSOU: sem pastas erradas na pasta pessoal (inicialização do resgate)
+PASSOU: ISO inicia mesmo com sistema no disco
+PASSOU: procedimento de resgate (docs/usuario/recuperacao.md) concluído
+PASSOU: disco inicia pelo caminho reserva após boot pela mídia
+PASSOU: senha antiga recusada
+PASSOU: login com a senha redefinida pelo resgate
+captura: e9-09-desktop-apos-resgate.png
+PASSOU: Secure Boot ativo após o resgate
+falhas: 1
+exit=1

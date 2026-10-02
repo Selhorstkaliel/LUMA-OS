@@ -1,0 +1,2 @@
+build/theme-root/usr/share/* usr/share/
+theme/bin/luma-appearance usr/bin/

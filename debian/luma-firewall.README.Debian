@@ -1,0 +1,10 @@
+luma-firewall
+=============
+
+Na primeira execução (instalação do pacote ou primeiro boot), o serviço
+luma-firewall-setup ativa o ufw com entrada bloqueada e saída liberada, a
+menos que o ufw já esteja ativo. Depois disso as mudanças do administrador
+prevalecem: o serviço não roda de novo (/var/lib/luma-firewall/aplicado).
+
+Remover o pacote não desativa o firewall. Para ajustar regras use
+Configurações do sistema > Firewall (plasma-firewall) ou `ufw`.

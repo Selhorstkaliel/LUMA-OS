@@ -1,0 +1,7 @@
+# Módulo do instalador Luma (mesmo formato dos módulos do calamares-settings-debian)
+---
+type:       "job"
+name:       "luma-efi-fallback"
+interface:  "process"
+command:    "/usr/libexec/luma-live/luma-efi-fallback"
+timeout:    300

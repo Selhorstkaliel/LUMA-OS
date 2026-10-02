@@ -1,0 +1,17 @@
+# Luma: padrões de sistema para usuários novos (luma-session).
+# /etc/xdg vem antes de /usr/share/desktop-base/kf5-settings em XDG_CONFIG_DIRS
+# (/etc/xdg/plasma-workspace/env/env.sh), então substitui o org.debian.desktop sem editar o desktop-base.
+# Preferências já gravadas pelo usuário em ~/.config continuam valendo.
+[KDE]
+LookAndFeelPackage=org.luma.desktop
+
+# Fonte padrão Inter (fonts-inter, OFL-1.1), como nos mockups
+[General]
+font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=DejaVu Sans Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[WM]
+activeFont=Inter,10,-1,5,600,0,0,0,0,0,0,0,0,0,0,1

@@ -1,0 +1,168 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+FALHOU: agente QEMU responde (verificação sem rede)
+info: tela lógica 1829x1029; Volume: 0.40; perfil balanced
+PASSOU: tecla Aumentar volume (0.40 → 0.45)
+PASSOU: tecla Diminuir volume (0.45 → 0.35)
+PASSOU: tecla Mudo silencia
+PASSOU: tecla Mudo reativa
+PASSOU: rolar sobre o ícone de volume (0.35 → 0.45)
+captura: E4-01-popup-volume.png
+PASSOU: definir volume 0.63 para teste de persistência
+FALHOU: rede conectada (NetworkManager) (esperado 'full', observado 'Erro: Not authorized to recheck connectivity.')
+captura: E4-02-popup-rede.png
+[lab] link de rede: off
+FALHOU: cabo desconectado: estado ''
+FALHOU: plasmashell estável sem rede
+captura: E4-03-sem-cabo.png
+[lab] link de rede: on
+[lab] SSH disponível
+FALHOU: cabo reconectado: conexão volta sozinha (esperado 'full', observado 'Erro: Not authorized to recheck connectivity.')
+FALHOU: desconexão remota não negada (rc=10, )
+FALHOU: sessão local: desconectar ()
+captura: E4-04-desconectado-pelo-usuario.png
+[lab] SSH disponível
+FALHOU: sessão local ativa reconecta (esperado 'full', observado 'Erro: Not authorized to recheck connectivity.')
+PASSOU: perfil de energia alterado na sessão
+FALHOU: sem bateria: UPower só com dispositivo de exibição
+captura: E4-05-popup-energia.png
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+FALHOU: volume mantido após reinício (esperado '0.63', observado '0.40')
+PASSOU: perfil de energia mantido após reinício
+FALHOU: rede conectada após reinício (esperado 'full', observado 'Erro: Not authorized to recheck connectivity.')
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+FALHOU: sem placa de som: nenhum sink ALSA
+PASSOU: sem placa de som: plasmashell estável após tecla de volume
+captura: E4-06-sem-placa-de-som.png
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+FALHOU: sem placa de rede: sessão Plasma ativa
+FALHOU: sem placa de rede: NetworkManager sem ethernet
+captura: E4-07-sem-placa-de-rede.png
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+qemu-img: Could not open '/srv/luma-lab/vms/lab-desktop/disk.qcow2': Failed to get shared "write" lock
+Is another process using the image [/srv/luma-lab/vms/lab-desktop/disk.qcow2]?
+FALHOU: VM não respondeu
+Terminated
+exit=1

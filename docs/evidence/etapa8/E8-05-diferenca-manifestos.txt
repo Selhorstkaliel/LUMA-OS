@@ -1,0 +1,24 @@
+luma-0.4.0-amd64.iso
+luma-0.4.1-amd64.iso
+luma-0.6.1-amd64.iso
+só em 0.4.1: 0 | só em 0.6.1: 13
+-- pacotes novos em 0.6.1:
+fonts-inter libclang1-19 libpyside6-py3-6.8 libshiboken6-py3-6.8 luma-ajustes papirus-icon-theme python3-pyside6.qtcore python3-pyside6.qtgui python3-pyside6.qtnetwork python3-pyside6.qtopengl python3-pyside6.qtqml python3-pyside6.qtquick python3-pyside6.qtwidgets 
+-- removidos:
+
+-- mesma lista, versão diferente (fora luma-*):
+join: /dev/fd/63:214: is not sorted: g++	4:14.2.0-1
+join: /dev/fd/62:215: is not sorted: g++	4:14.2.0-1
+join: input is not in sorted order
+join: /dev/fd/63:214: is not sorted: g++	4:14.2.0-1
+join: /dev/fd/62:215: is not sorted: g++	4:14.2.0-1
+join: input is not in sorted order
+total: 3 com versão diferente
+builds 1 (0.4.0) x 2 (0.4.1): linhas diferentes = 6
+< luma-firewall	0.4.0
+< luma-session	0.4.0
+< luma-theme	0.4.0
+> luma-firewall	0.4.1
+> luma-session	0.4.1
+> luma-theme	0.4.1
+luma-0.6.1-amd64.iso: OK

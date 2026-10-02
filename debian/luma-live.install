@@ -1,0 +1,5 @@
+live-session/2000-luma-live-session usr/lib/live/config/
+live-session/luma-efi-fallback usr/libexec/luma-live/
+live-session/luma-installer-cleanup usr/libexec/luma-live/
+live-session/calamares/luma-efi-fallback usr/lib/calamares/modules/
+live-session/calamares/luma-cleanup usr/lib/calamares/modules/

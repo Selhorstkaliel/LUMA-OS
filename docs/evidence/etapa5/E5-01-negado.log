@@ -1,0 +1,13 @@
+Transação:	Resolvendo
+Status: 	Esperando na fila
+Status: 	Iniciando
+Status: 	Carregando cache
+Porcentagem:	50
+Porcentagem:	100
+Status: 	Consultando
+Transação:	Instalando
+Status: 	Esperando na fila
+Status: 	Esperando pela autenticação
+Status: 	Finalizado
+Resultados:
+Erro fatal: Failed to obtain authentication.

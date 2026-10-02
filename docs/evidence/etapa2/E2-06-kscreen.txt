@@ -1,0 +1,18 @@
+[01;32mOutput: [0;0m1 Virtual-1
+	[01;32menabled[0;0m
+	[01;32mconnected[0;0m
+	[01;32mpriority 1[0;0m
+	[01;33mUnknown[0;0m
+	[01;34mModes: [0;0m 1:[01;32m1920x1080@75*[0;0m!  2:5120x2160@50  3:4096x2160@50  4:3840x2160@60  5:3840x2160@60  6:3840x2160@50  7:1920x1440@60  8:2560x1080@50  9:1856x1392@60  10:1792x1344@60  11:2048x1152@60  12:1920x1200@60  13:1920x1080@60  14:1920x1080@50  15:1600x1200@60  16:1680x1050@60  17:1400x1050@60  18:1280x1024@60  19:1440x900@60  20:1280x960@60  21:1360x768@60  22:1280x768@60  23:1024x768@60  24:800x600@60  25:640x480@60  26:640x480@60 
+[01;33m	Geometry: [0;0m0,0 1829x1029
+[01;33m	Scale: [0;0m1.05
+[01;33m	Rotation: [0;0m1
+[01;33m	Overscan: [0;0m0
+[01;33m	Vrr: [0;0mincapable
+[01;33m	RgbRange: [0;0munknown
+[01;33m	HDR: [0;0mincapable
+[01;33m	Wide Color Gamut: [0;0mincapable
+[01;33m	ICC profile: [0;0mnone
+[01;33m	Color profile source: [0;0msRGB
+[01;33m	Color power preference: [0;0mprefer efficiency and performance
+[01;33m	Brightness control: [0;0msupported, set to 100% and dimming to 100%

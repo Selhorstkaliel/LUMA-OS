@@ -1,0 +1,5 @@
+Os pacotes a seguir estão apenas meio configurados, provavelmente devido a
+problemas ao configurá-los pela primeira vez. A configuração deve ser feita
+novamente usando dpkg --configure <pacote> ou a opção de configuração no
+menu do dselect:
+ luma-teste-recuperacao pacote de teste de recuperação (somente laboratório)

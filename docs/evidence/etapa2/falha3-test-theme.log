@@ -1,0 +1,52 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: apt instala luma-theme
+PASSOU: sessão Plasma da conta teste iniciou
+PASSOU: Look-and-Feel claro listado
+PASSOU: Look-and-Feel escuro listado
+PASSOU: esquemas de cores listados
+captura: E2-02-antes-breeze.png
+PASSOU: luma-appearance claro --reset-layout
+PASSOU: ColorScheme=LumaLight
+PASSOU: LookAndFeelPackage gravado
+PASSOU: dois painéis no layout
+PASSOU: dock com icontasks e favoritos
+PASSOU: dock flutuante e ajustado ao conteúdo
+FALHOU: wallpaper Luma aplicado
+PASSOU: ícones breeze
+captura: E2-03-claro-1920x1080.png
+PASSOU: dolphin em execução
+PASSOU: konsole em execução
+PASSOU: systemsettings em execução
+captura: E2-04-apps-claro.png
+PASSOU: luma-appearance escuro
+PASSOU: uso incorreto retorna 64
+PASSOU: ColorScheme=LumaDark
+PASSOU: ícones breeze-dark
+PASSOU: layout mantido ao alternar
+captura: E2-05-apps-escuro.png
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+[lab] SSH disponível
+PASSOU: modo 1366x768 ativo
+FALHOU: tema escuro persistiu após reinício
+captura: E2-06-escuro-1366x768.png
+captura: E2-06-claro-1366x768.png
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+PASSOU: modo 1920x1080 ativo
+PASSOU: escala 1,5 ativa
+captura: E2-07-claro-escala150.png
+captura: E2-08-meta-lancador.png
+captura: E2-08-busca-konsole.png
+PASSOU: Konsole aberto só com teclado
+captura: E2-08-alt-tab.png
+PASSOU: apt remove luma-theme
+PASSOU: arquivos do tema removidos
+PASSOU: tema não listado após remoção
+PASSOU: nova sessão inicia sem o tema
+PASSOU: plasmashell estável 20 s após login
+captura: E2-09-apos-remocao.png
+falhas: 2
+exit=1

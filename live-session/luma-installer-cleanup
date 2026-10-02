@@ -1,0 +1,9 @@
+#!/bin/sh
+# Luma: último passo antes de desmontar o destino. Remove do sistema instalado a configuração do
+# instalador que não pertence a nenhum pacote (marca Luma e locale.conf, vindos da imagem live): a remoção
+# dos pacotes do instalador apaga só os arquivos que são deles.
+# Uso: luma-installer-cleanup [RAIZ_DO_SISTEMA_INSTALADO]; sem argumento, usa a raiz montada pelo Calamares.
+set -eu
+CHROOT="${1:-$(findmnt -rn -o TARGET | grep -m1 '^/tmp/calamares-root-[^/]*$' || true)}"
+[ -n "$CHROOT" ] || { echo "luma-installer-cleanup: raiz do sistema instalado não encontrada" >&2; exit 1; }
+rm -rf "$CHROOT/etc/calamares"

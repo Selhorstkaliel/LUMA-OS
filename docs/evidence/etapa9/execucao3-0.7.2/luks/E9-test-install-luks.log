@@ -1,0 +1,18 @@
+PASSOU: checksum da ISO confere
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco criado: /srv/luma-lab/vms/lab-install/disk.qcow2 (32G, alocação dinâmica)
+[lab] variáveis UEFI criadas a partir de /usr/share/OVMF/OVMF_VARS_4M.ms.fd
+PASSOU: atalho "Instalar o Luma" na área de trabalho (inicialização da instalação)
+PASSOU: sem pastas erradas na pasta pessoal (inicialização da instalação)
+info: disco antes da instalação: vda disk ;
+PASSOU: rede desligada durante a instalação
+captura: e9-luks-04-localizacao.png
+captura: e9-luks-04-particoes.png
+inst_click: janela do instalador não encontrada
+captura: e9-luks-04-usuario.png
+inst_click: janela do instalador não encontrada
+captura: e9-luks-04-resumo.png
+inst_click: janela do instalador não encontrada
+FALHOU: instalação não iniciou
+captura: e9-luks-04-falha.png
+exit=1

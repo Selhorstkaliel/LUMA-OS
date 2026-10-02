@@ -1,0 +1,7 @@
+# Módulo do instalador Luma (mesmo formato dos módulos do calamares-settings-debian)
+---
+type:       "job"
+name:       "luma-cleanup"
+interface:  "process"
+command:    "/usr/libexec/luma-live/luma-installer-cleanup"
+timeout:    60

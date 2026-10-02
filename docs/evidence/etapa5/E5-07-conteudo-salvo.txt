@@ -1,0 +1,14 @@
+[lab] SSH disponível
+total 16
+drwxr-xr-x  2 novo novo 4096 set 30 17:50 .
+drwx------ 15 novo novo 4096 set 30 17:50 ..
+-rw-rw-r--  1 novo novo   24 set 30 17:50 copia final
+-rw-rw-r--  1 novo novo   24 set 30 17:50 Relatório de teste.txt
+== Relatório de teste.txt
+linha original$
+ editado$
+== copia final
+linha original$
+ editado$
+[lab] desligamento solicitado via SSH
+[lab] VM desligada

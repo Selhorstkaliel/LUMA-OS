@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install Luma
+Name[pt_BR]=Instalar o Luma
+GenericName=System Installer
+GenericName[pt_BR]=Instalador do sistema
+Exec=calamares-install-debian
+Comment=Install Luma on this computer
+Comment[pt_BR]=Instalar o Luma neste computador
+Keywords=calamares;system;install;luma;installer;instalar;instalador;
+Icon=luma-logo
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=true

@@ -1,0 +1,39 @@
+Lendo listas de pacotes...
+Construindo árvore de dependências...
+Lendo informação de estado...
+Os pacotes adicionais a seguir serão instalados:
+  fonts-inter papirus-icon-theme
+Os NOVOS pacotes a seguir serão instalados:
+  fonts-inter luma-theme papirus-icon-theme
+0 pacotes atualizados, 3 pacotes novos instalados, 0 a serem removidos e 0 não atualizados.
+É preciso baixar 27,2 MB/32,3 MB de arquivos.
+Depois desta operação, 219 MB adicionais de espaço em disco serão usados.
+Obter:1 /tmp/luma-theme.deb luma-theme all 0.5.0 [5.073 kB]
+Obter:2 http://deb.debian.org/debian trixie/main amd64 fonts-inter all 4.1+ds-1 [4.616 kB]
+Obter:3 http://deb.debian.org/debian trixie/main amd64 papirus-icon-theme all 20250501-1 [22,6 MB]
+debconf: incapaz de inicializar interface: Dialog
+debconf: (A interface dialog não funcionará em um terminal burro, em um buffer shell do emacs, ou sem um terminal controlador.)
+debconf: tentando com interface: Readline
+debconf: incapaz de inicializar interface: Readline
+debconf: (Essa interface requer um tty controlador.)
+debconf: tentando com interface: Teletype
+debconf: incapaz de inicializar interface: Teletype
+debconf: (Essa interface requer um tty controlador.)
+debconf: tentando com interface: Noninteractive
+Obtidos 27,2 MB em 2s (14,2 MB/s)
+Selecionando pacote previamente não selecionado fonts-inter.
+(Lendo banco de dados ... (Lendo banco de dados ... 5%(Lendo banco de dados ... 10%(Lendo banco de dados ... 15%(Lendo banco de dados ... 20%(Lendo banco de dados ... 25%(Lendo banco de dados ... 30%(Lendo banco de dados ... 35%(Lendo banco de dados ... 40%(Lendo banco de dados ... 45%(Lendo banco de dados ... 50%(Lendo banco de dados ... 55%(Lendo banco de dados ... 60%(Lendo banco de dados ... 65%(Lendo banco de dados ... 70%(Lendo banco de dados ... 75%(Lendo banco de dados ... 80%(Lendo banco de dados ... 85%(Lendo banco de dados ... 90%(Lendo banco de dados ... 95%(Lendo banco de dados ... 100%(Lendo banco de dados ... 200551 arquivos e diretórios atualmente instalados).
+Preparando para desempacotar .../fonts-inter_4.1+ds-1_all.deb ...
+Desempacotando fonts-inter (4.1+ds-1) ...
+Selecionando pacote previamente não selecionado papirus-icon-theme.
+Preparando para desempacotar .../papirus-icon-theme_20250501-1_all.deb ...
+Desempacotando papirus-icon-theme (20250501-1) ...
+Selecionando pacote previamente não selecionado luma-theme.
+Preparando para desempacotar /tmp/luma-theme.deb ...
+Desempacotando luma-theme (0.5.0) ...
+Configurando papirus-icon-theme (20250501-1) ...
+Configurando fonts-inter (4.1+ds-1) ...
+Configurando luma-theme (0.5.0) ...
+Processando gatilhos para hicolor-icon-theme (0.18-2) ...
+Processando gatilhos para man-db (2.13.1-1) ...
+Processando gatilhos para fontconfig (2.15.0-2.3) ...

@@ -1,0 +1,15 @@
+luma-session_0.2.0_all.deb
+luma-theme_0.1.0_all.deb
+luma-theme_0.1.1_all.deb
+luma-theme_0.1.2_all.deb
+luma-theme_0.2.0_all.deb
+-rw-r--r-- root/root       369 2026-09-30 15:48 ./etc/xdg/kdeglobals
+-rw-r--r-- root/root       193 2026-09-30 15:48 ./etc/xdg/kscreenlockerrc
+-rw-r--r-- root/root       502 2026-09-30 15:50 ./usr/share/doc/luma-session/changelog.gz
+-rw-r--r-- root/root       439 2026-09-30 14:51 ./usr/share/doc/luma-session/copyright
+      45 bytes,     2 lines      conffiles
+ Depends: luma-theme (= 0.2.0), plasma-workspace (>= 4:6.3)
+/etc/xdg/kdeglobals
+/etc/xdg/kscreenlockerrc
+running with root privileges is not recommended!
+lintian-sem-erro-aviso

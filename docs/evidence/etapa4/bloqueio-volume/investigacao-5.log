@@ -1,0 +1,26 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+== áudio do usuário sddm na tela de login (antes de criar a conta de teste):
+estado salvo do sddm:
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+[lab] SSH disponível
+CONTROLE (áudio do sddm ativo)   após reinício: Volume: 0.40 | channelVolumes":[0.064563, 0.064563]
+== desativa pipewire/wireplumber só para o usuário sddm
+lrwxrwxrwx 1 sddm sddm    9 out  1 08:32 pipewire-pulse.service -> /dev/null
+lrwxrwxrwx 1 sddm sddm    9 out  1 08:32 pipewire-pulse.socket -> /dev/null
+lrwxrwxrwx 1 sddm sddm    9 out  1 08:32 pipewire.service -> /dev/null
+lrwxrwxrwx 1 sddm sddm    9 out  1 08:32 pipewire.socket -> /dev/null
+lrwxrwxrwx 1 sddm sddm    9 out  1 08:32 wireplumber.service -> /dev/null
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+TESTE    (áudio do sddm mascarado) após reinício: Volume: 0.40 | channelVolumes":[0.064563, 0.064563]
+0
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+TESTE 2  (repetição)               após reinício: Volume: 0.40 | channelVolumes":[0.064563, 0.064563]
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+exit=0

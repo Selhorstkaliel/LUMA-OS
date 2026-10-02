@@ -1,0 +1,18 @@
+Hit:1 http://deb.debian.org/debian trixie InRelease
+Get:2 http://security.debian.org/debian-security trixie-security InRelease [43,4 kB]
+Get:3 http://deb.debian.org/debian trixie-updates InRelease [47,3 kB]
+Get:4 http://security.debian.org/debian-security trixie-security/main Sources [238 kB]
+Get:5 http://security.debian.org/debian-security trixie-security/non-free-firmware Sources [696 B]
+Get:6 http://security.debian.org/debian-security trixie-security/main amd64 Packages [263 kB]
+Get:7 http://deb.debian.org/debian trixie-backports InRelease [54,0 kB]
+Get:8 http://security.debian.org/debian-security trixie-security/main Translation-en [161 kB]
+Get:9 http://security.debian.org/debian-security trixie-security/non-free-firmware amd64 Packages [544 B]
+Get:10 http://security.debian.org/debian-security trixie-security/non-free-firmware Translation-en [352 B]
+Get:11 http://deb.debian.org/debian trixie-backports/non-free-firmware Sources [3.412 B]
+Get:12 http://deb.debian.org/debian trixie-backports/main Sources [314 kB]
+Get:13 http://deb.debian.org/debian trixie-backports/main amd64 Packages [330 kB]
+Get:14 http://deb.debian.org/debian trixie-backports/main Translation-en [241 kB]
+Get:15 http://deb.debian.org/debian trixie-backports/non-free-firmware amd64 Packages [6.564 B]
+Get:16 http://deb.debian.org/debian trixie-backports/non-free-firmware Translation-en [4.480 B]
+Fetched 1.708 kB in 2s (1.007 kB/s)
+Reading package lists...

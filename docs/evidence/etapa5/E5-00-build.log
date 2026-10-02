@@ -1,0 +1,6 @@
+lint OK (16 scripts)
+running with root privileges is not recommended!
+/srv/luma-lab/debs/luma-session_0.3.0_all.deb
+/srv/luma-lab/debs/luma-theme_0.3.0_all.deb
+Depends: luma-theme (= 0.3.0), plasma-workspace (>= 4:6.3)
+Recommends: plasma-discover, plasma-discover-backend-flatpak, xdg-desktop-portal-kde

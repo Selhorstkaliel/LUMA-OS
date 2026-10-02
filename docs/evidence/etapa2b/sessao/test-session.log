@@ -1,0 +1,53 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: apt instala luma-theme, luma-session e luma-ajustes
+PASSOU: primeiro login do usuário novo (área de trabalho pronta)
+PASSOU: novo: LookAndFeelPackage
+PASSOU: novo: esquema LumaLight
+PASSOU: novo: fonte Inter (padrão do sistema)
+PASSOU: novo: painel superior e dock
+PASSOU: novo: dock com favoritos
+PASSOU: novo: wallpaper Luma
+PASSOU: novo: botões de janela à esquerda
+PASSOU: tela de bloqueio usa wallpaper Luma
+captura: E3-01-usuario-novo.png
+info: tela lógica 1829x1029; konsole em 454,244 largura 919
+PASSOU: mover janela arrastando o título (Δ=199,120)
+PASSOU: maximizar (duplo clique no título)
+captura: E3-02-maximizada.png
+PASSOU: restaurar (duplo clique no título)
+PASSOU: minimizar (botão)
+PASSOU: Alt+Tab restaura a minimizada
+PASSOU: Dolphin ativo ao abrir
+PASSOU: Alt+Tab alterna para Konsole
+captura: E3-02-duas-janelas.png
+PASSOU: fechar pelo botão X
+PASSOU: fechar com Alt+F4
+PASSOU: notificação aceita pelo servidor ((uint32 1,))
+captura: E3-03-notificacao.png
+captura: E3-04-krunner.png
+PASSOU: KRunner abre Dolphin pela busca
+PASSOU: Meta+L bloqueia a sessão
+captura: E3-05-bloqueada.png
+PASSOU: senha errada não desbloqueia
+captura: E3-05-senha-errada.png
+PASSOU: senha correta desbloqueia
+captura: E3-05-desbloqueada.png
+PASSOU: usuário escolhe tema escuro
+PASSOU: logout encerrou a sessão e novo login ocorreu
+PASSOU: após logout: esquema LumaDark
+PASSOU: após logout: 2 painéis
+captura: E3-06-apos-logout.png
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+PASSOU: após reinício: esquema LumaDark
+PASSOU: após reinício: LookAndFeel escuro
+PASSOU: após reinício: 2 painéis
+captura: E3-06-apos-reinicio.png
+PASSOU: apt purge luma-session
+PASSOU: padrões /etc/xdg removidos
+PASSOU: luma-theme continua instalado
+PASSOU: escolha do usuário mantida
+falhas: 0
+exit=0

@@ -1,0 +1,7 @@
+PASSOU: checksum da ISO confere
+info: iso: luma-0.4.0-amd64.iso sha256: 7e1022055d05092df2a6c59cd980f104e8508f7fce60c92d105cc0aee57b3538 tamanho: 2856443904 pacotes: 2209 live-build: 1:20250505+deb13u1 duração_s: 1987 data: 2026-09-30T21:48:11Z 
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] disco criado: /srv/luma-lab/vms/lab-live/disk.qcow2 (64G, alocação dinâmica)
+[lab] variáveis UEFI criadas a partir de /usr/share/OVMF/OVMF_VARS_4M.ms.fd
+FALHOU: ISO iniciou e o agente responde
+exit=1

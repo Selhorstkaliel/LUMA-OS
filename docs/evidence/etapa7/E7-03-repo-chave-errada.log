@@ -1,0 +1,14 @@
+Get:1 file:/srv/luma-teste-repos/chave-errada ./ InRelease [1093 B]
+Get:1 file:/srv/luma-teste-repos/chave-errada ./ InRelease [1093 B]
+Err:1 file:/srv/luma-teste-repos/chave-errada ./ InRelease
+  Sub-process /usr/bin/sqv returned an error code (1), error message is: Missing key 5C8691EEBE8BCB31E1E856118DD539EFBA5854A0, which is needed to verify signature.
+Reading package lists...
+W: OpenPGP signature verification failed: file:/srv/luma-teste-repos/chave-errada ./ InRelease: Sub-process /usr/bin/sqv returned an error code (1), error message is: Missing key 5C8691EEBE8BCB31E1E856118DD539EFBA5854A0, which is needed to verify signature.
+E: The repository 'file:/srv/luma-teste-repos/chave-errada ./ InRelease' is not signed.
+UPDATE_RC=100
+Reading package lists...
+Building dependency tree...
+Reading state information...
+E: Unable to locate package luma-teste-assinatura
+INSTALL_RC=100
+NAO_INSTALADO

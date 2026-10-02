@@ -1,0 +1,5 @@
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   2  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 2u
+gpg: next trustdb check due at 2026-10-01
+repositórios de teste em /srv/luma-lab/fixtures/repos (chave confiável 1EA105A5773A2B614E65C16799ED6C52516E29EE)

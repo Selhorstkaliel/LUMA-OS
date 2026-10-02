@@ -1,0 +1,24 @@
+#!/bin/sh
+# Receita da ISO live do Luma (live-build 1:20250505, Debian 13 trixie). Ver docs/decisions/0005.
+set -e
+lb config noauto \
+	--distribution trixie \
+	--archive-areas "main contrib non-free-firmware" \
+	--mirror-bootstrap "http://deb.debian.org/debian/" \
+	--mirror-binary "http://deb.debian.org/debian/" \
+	--security true \
+	--updates true \
+	--binary-image iso-hybrid \
+	--bootloaders grub-efi \
+	--uefi-secure-boot enable \
+	--debian-installer none \
+	--firmware-chroot true \
+	--firmware-binary true \
+	--apt-recommends true \
+	--cache-packages true \
+	--image-name luma \
+	--iso-application "Luma" \
+	--iso-publisher "Projeto Luma" \
+	--iso-volume "LUMA" \
+	--bootappend-live "boot=live components locales=pt_BR.UTF-8 keyboard-layouts=br timezone=America/Sao_Paulo hostname=luma username=luma user-fullname=Luma" \
+	"${@}"

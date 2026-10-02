@@ -1,0 +1,215 @@
+08:42:21.356018 lab-desktop pipewire-pulse[1893]: I mod.protocol-pulse [module.c:69:module_load]: load module index:536870914 name:module-device-restore
+08:42:21.356021 lab-desktop pipewire-pulse[1893]: I mod.protocol-pulse [module.c:69:module_load]: load module index:536870915 name:module-stream-restore
+08:42:21.360149 lab-desktop wireplumber[1892]: wp-core: <WpCore:0x56162d6daf70> parsing & loading components for profile [main]...
+08:42:21.360235 lab-desktop wireplumber[1892]: wp-internal-comp-loader: Loading profile 'main'
+08:42:21.361379 lab-desktop wireplumber[1892]: wp-conf: <WpConf:0x56162d6d92d0> section 'wireplumber.profiles' is used as-is from '/usr/share/wireplumber/wireplumber.conf'
+08:42:21.362534 lab-desktop pipewire-pulse[1893]: I mod.protocol-pulse [pulse-server.c:4565:do_extension]: [] EXTENSION tag:11 index:4294967295 name:module-stream-restore
+08:42:21.362545 lab-desktop pipewire-pulse[1893]: I mod.protocol-pulse [pulse-server.c:4565:do_extension]: [] EXTENSION tag:12 index:4294967295 name:module-stream-restore
+08:42:21.363424 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:bluetooth.autoswitch-to-headset-profile type:Spa:String:JSON value:{
+                                                          description = "Whether to autoswitch to BT headset profile or not"
+08:42:21.363428 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:device.restore-profile type:Spa:String:JSON value:{
+                                                          description = "Whether to restore device profile or not"
+08:42:21.363431 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:device.restore-routes type:Spa:String:JSON value:{
+                                                          description = "Whether to restore device routes or not"
+08:42:21.363434 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:{
+                                                          description = "The default volume for sink devices"
+08:42:21.363438 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:device.routes.default-source-volume type:Spa:String:JSON value:{
+                                                          description = "The default volume for source devices"
+                                                          description = "The volume level to apply when ducking (= reducing volume for a higher priority stream to be audible) in the role-based linking
+08:42:21.363471 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:node.stream.restore-props type:Spa:String:JSON value:{
+                                                          description = "Whether to restore properties on stream nodes or not"
+08:42:21.363474 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:node.stream.restore-target type:Spa:String:JSON value:{
+                                                          description = "Whether to restore target on stream nodes or not"
+08:42:21.363477 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:{
+                                                          description = "The default volume for playback nodes"
+08:42:21.363481 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:{
+                                                          description = "The default volume for capture nodes"
+08:42:21.363494 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d6fe4a0: add id:0 key:node.restore-default-targets type:Spa:String:JSON value:{
+                                                          description = "Whether to restore default targets or not"
+08:42:21.363793 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:bluetooth.autoswitch-to-headset-profile type:Spa:String:JSON value:true
+08:42:21.363797 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:device.restore-profile type:Spa:String:JSON value:true
+08:42:21.363800 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:device.restore-routes type:Spa:String:JSON value:true
+08:42:21.363803 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:0.064
+08:42:21.363807 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:device.routes.default-source-volume type:Spa:String:JSON value:1.0
+08:42:21.363811 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:bluetooth.autoswitch-to-headset-profile type:Spa:String:JSON valu
+                                                             description = "Whether to autoswitch to BT headset profile or not"
+08:42:21.363814 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.restore-profile type:Spa:String:JSON value:{
+                                                             description = "Whether to restore device profile or not"
+08:42:21.363831 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.restore-routes type:Spa:String:JSON value:{
+                                                             description = "Whether to restore device routes or not"
+08:42:21.363838 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:node.stream.restore-props type:Spa:String:JSON value:true
+08:42:21.363838 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for sink devices"
+08:42:21.363841 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:node.stream.restore-target type:Spa:String:JSON value:true
+08:42:21.363842 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.routes.default-source-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for source devices"
+08:42:21.363844 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:1.0
+                                                             description = "The volume level to apply when ducking (= reducing volume for a higher priority stream to be audible) in the role-based link
+08:42:21.363850 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:1.0
+08:42:21.363861 lab-desktop wireplumber[1892]: pw.metadata: 0x56162d741110: add id:0 key:node.restore-default-targets type:Spa:String:JSON value:true
+08:42:21.363868 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.restore-props type:Spa:String:JSON value:{
+                                                             description = "Whether to restore properties on stream nodes or not"
+08:42:21.363871 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.restore-target type:Spa:String:JSON value:{
+                                                             description = "Whether to restore target on stream nodes or not"
+08:42:21.363874 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for playback nodes"
+08:42:21.363877 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for capture nodes"
+08:42:21.363888 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.restore-default-targets type:Spa:String:JSON value:{
+                                                             description = "Whether to restore default targets or not"
+08:42:21.363902 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:bluetooth.autoswitch-to-headset-profile type:Spa:String:JSON valu
+                                                             description = "Whether to autoswitch to BT headset profile or not"
+08:42:21.363905 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.restore-profile type:Spa:String:JSON value:{
+                                                             description = "Whether to restore device profile or not"
+08:42:21.363908 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.restore-routes type:Spa:String:JSON value:{
+                                                             description = "Whether to restore device routes or not"
+08:42:21.363910 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for sink devices"
+08:42:21.363913 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:device.routes.default-source-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for source devices"
+                                                             description = "The volume level to apply when ducking (= reducing volume for a higher priority stream to be audible) in the role-based link
+08:42:21.363937 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.restore-props type:Spa:String:JSON value:{
+                                                             description = "Whether to restore properties on stream nodes or not"
+08:42:21.363940 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.restore-target type:Spa:String:JSON value:{
+                                                             description = "Whether to restore target on stream nodes or not"
+08:42:21.363943 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for playback nodes"
+08:42:21.363946 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:{
+                                                             description = "The default volume for capture nodes"
+08:42:21.363957 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:38 subject:0 key:node.restore-default-targets type:Spa:String:JSON value:{
+                                                             description = "Whether to restore default targets or not"
+08:42:21.363966 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:bluetooth.autoswitch-to-headset-profile type:Spa:String:JSON valu
+08:42:21.363969 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.restore-profile type:Spa:String:JSON value:true
+08:42:21.363972 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.restore-routes type:Spa:String:JSON value:true
+08:42:21.363974 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:0.06
+08:42:21.363977 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.routes.default-source-volume type:Spa:String:JSON value:1.
+08:42:21.363997 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.restore-props type:Spa:String:JSON value:true
+08:42:21.364000 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.restore-target type:Spa:String:JSON value:true
+08:42:21.364002 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:1.
+08:42:21.364004 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:1.0
+08:42:21.364012 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.restore-default-targets type:Spa:String:JSON value:true
+08:42:21.364061 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:bluetooth.autoswitch-to-headset-profile type:Spa:String:JSON valu
+08:42:21.364064 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.restore-profile type:Spa:String:JSON value:true
+08:42:21.364068 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.restore-routes type:Spa:String:JSON value:true
+08:42:21.364071 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:0.06
+08:42:21.364073 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:device.routes.default-source-volume type:Spa:String:JSON value:1.
+08:42:21.364094 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.restore-props type:Spa:String:JSON value:true
+08:42:21.364096 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.restore-target type:Spa:String:JSON value:true
+08:42:21.364099 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.default-playback-volume type:Spa:String:JSON value:1.
+08:42:21.364101 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.stream.default-capture-volume type:Spa:String:JSON value:1.0
+08:42:21.364109 lab-desktop pipewire-pulse[1893]: D mod.protocol-pulse [pulse-server.c:926:manager_metadata]: meta id:40 subject:0 key:node.restore-default-targets type:Spa:String:JSON value:true
+08:42:21.364800 lab-desktop pipewire-pulse[1893]: I mod.protocol-pulse [pulse-server.c:4565:do_extension]: [] EXTENSION tag:11 index:4294967295 name:module-stream-restore
+08:42:21.364810 lab-desktop pipewire-pulse[1893]: I mod.protocol-pulse [pulse-server.c:4565:do_extension]: [] EXTENSION tag:12 index:4294967295 name:module-stream-restore
+08:42:21.367525 lab-desktop wireplumber[1892]: wp-plugin: <WpPortalPermissionStorePlugin:0x56162d76db20> enabling plugin 'portal-permissionstore'
+08:42:21.368277 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7356c0> enabling plugin 'script:device/select-profile.lua'
+08:42:21.368869 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d77e700> enabling plugin 'script:device/autoswitch-bluetooth-profile.lua'
+08:42:21.369682 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7874c0> enabling plugin 'script:device/apply-profile.lua'
+08:42:21.369875 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d787dc0> enabling plugin 'script:device/find-best-profile.lua'
+08:42:21.369966 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7800a0> enabling plugin 'script:device/find-preferred-profile.lua'
+08:42:21.370058 lab-desktop wireplumber[1892]: wp-conf: <WpConf:0x56162d6d92d0> section 'device.profile.priority.rules' is not defined
+08:42:21.370091 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7a7d50> enabling plugin 'script:device/state-profile.lua'
+08:42:21.370215 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7411d0> enabling plugin 'script:device/select-routes.lua'
+08:42:21.370415 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7b70a0> enabling plugin 'script:device/apply-routes.lua'
+08:42:21.370542 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7a81a0> enabling plugin 'script:device/find-best-routes.lua'
+08:42:21.370638 lab-desktop wireplumber[1892]: wp-plugin: <WpLuaScript:0x56162d7bf8f0> enabling plugin 'script:device/state-routes.lua'
+08:42:21.374692 lab-desktop wireplumber[1892]: wp-plugin: <WpMixerApi:0x56162d7ca550> enabling plugin 'mixer-api'
+08:42:21.380362 lab-desktop wireplumber[1892]: s-node: <WpNode:37:0x56162d782bd0> restore values from Audio/Sink:node.name:auto_null
+08:42:21.386679 lab-desktop wireplumber[1892]: spa.alsa: Loading profile set: /usr/share/alsa-card-profile/mixer/profile-sets/default.conf
+08:42:21.401835 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-front-mic.conf
+08:42:21.402009 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-rear-mic.conf
+08:42:21.402080 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-internal-mic.conf
+08:42:21.402174 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-dock-mic.conf
+08:42:21.402277 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input.conf
+08:42:21.402397 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-mic.conf
+08:42:21.402479 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-linein.conf
+08:42:21.402552 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-aux.conf
+08:42:21.402662 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-video.conf
+08:42:21.402779 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-tvtuner.conf
+08:42:21.402871 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-fm.conf
+08:42:21.402994 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-mic-line.conf
+08:42:21.403122 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-headphone-mic.conf
+08:42:21.403196 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-input-headset-mic.conf
+08:42:21.403484 lab-desktop wireplumber[1892]: spa.alsa: Successfully attached to mixer 'hw:0'
+08:42:21.417951 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-output.conf
+08:42:21.418098 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-output-lineout.conf
+08:42:21.418178 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-output-speaker.conf
+08:42:21.418329 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-output-headphones.conf
+08:42:21.418468 lab-desktop wireplumber[1892]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-output-headphones-2.conf
+08:42:21.426824 lab-desktop wireplumber[1892]: spa.alsa: Profile output:analog-stereo+input:analog-stereo available unknown -> yes
+08:42:21.426844 lab-desktop wireplumber[1892]: spa.alsa: Profile output:analog-stereo available unknown -> yes
+08:42:21.426846 lab-desktop wireplumber[1892]: spa.alsa: Profile input:analog-stereo available unknown -> yes
+08:42:21.426848 lab-desktop wireplumber[1892]: spa.alsa: Profile pro-audio available yes -> unknown
+08:42:21.426852 lab-desktop wireplumber[1892]: spa.alsa: activate profile: off (0)
+08:42:21.439359 lab-desktop wireplumber[1892]: I s-device [find-best-profile.lua:69:chunk]: <WpDevice:50:0x56162d831af0> Found best profile 'output:analog-stereo+input:analog-stereo' (1) for device 'a
+08:42:21.439616 lab-desktop wireplumber[1892]: I s-device [apply-profile.lua:47:chunk]: <WpDevice:50:0x56162d831af0> Setting profile output:analog-stereo+input:analog-stereo on alsa_card.pci-0000_00_0
+08:42:21.440507 lab-desktop wireplumber[1892]: spa.alsa: activate profile: output:analog-stereo+input:analog-stereo (1)
+08:42:21.440530 lab-desktop wireplumber[1892]: spa.alsa: Activating path analog-output-lineout
+08:42:21.440537 lab-desktop wireplumber[1892]: spa.alsa: Hardware volume ranges from -125.00 dB to 0.00 dB.
+08:42:21.440548 lab-desktop wireplumber[1892]: spa.alsa: Fixing base volume to 0.00 dB
+08:42:21.440550 lab-desktop wireplumber[1892]: spa.alsa: Using hardware volume control. Hardware dB scale supported.
+08:42:21.440561 lab-desktop wireplumber[1892]: spa.alsa: New hardware volume: min:41350 max:41350
+08:42:21.440564 lab-desktop wireplumber[1892]: spa.alsa: device analog-stereo volume changed
+08:42:21.440575 lab-desktop wireplumber[1892]: spa.alsa: Activating path analog-input-linein
+08:42:21.440577 lab-desktop wireplumber[1892]: spa.alsa: Hardware volume ranges from -74.00 dB to 0.00 dB.
+08:42:21.440579 lab-desktop wireplumber[1892]: spa.alsa: Fixing base volume to 0.00 dB
+08:42:21.440581 lab-desktop wireplumber[1892]: spa.alsa: Using hardware volume control. Hardware dB scale supported.
+08:42:21.440586 lab-desktop wireplumber[1892]: spa.alsa: New hardware volume: min:65536 max:65536
+08:42:21.440587 lab-desktop wireplumber[1892]: spa.alsa: device analog-stereo volume changed
+08:42:21.440591 lab-desktop wireplumber[1892]: spa.alsa: card profile changed from off to output:analog-stereo+input:analog-stereo
+08:42:21.441639 lab-desktop wireplumber[1892]: I s-device [select-routes.lua:92:chunk]: <WpDevice:50:0x56162d831af0> restore routes for profile(off) of device(alsa_card.pci-0000_00_04.0)
+08:42:21.441977 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:120:chunk]: <WpDevice:50:0x56162d831af0> No routes selected to set on alsa_card.pci-0000_00_04.0
+08:42:21.448348 lab-desktop wireplumber[1892]: I s-device [select-routes.lua:92:chunk]: <WpDevice:50:0x56162d831af0> restore routes for profile(output:analog-stereo+input:analog-stereo) of device(alsa
+08:42:21.448526 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:60:chunk]: <WpDevice:50:0x56162d831af0> restoring route for device ID 0
+08:42:21.448532 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:60:chunk]: <WpDevice:50:0x56162d831af0> restoring route for device ID 3
+08:42:21.448536 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:81:chunk]: <WpDevice:50:0x56162d831af0> found stored route: analog-output-lineout
+08:42:21.449041 lab-desktop wireplumber[1892]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x56162d962a20> setting route(analog-output-lineout) on for device(alsa_card.pci-0000_00_04.0)(<WpDevic
+                                                        Object: size 216, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                          Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                            Object: size 120, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                              Prop: key Spa:Pod:Object:Param:Props:channelVolumes (65544), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+08:42:21.449068 lab-desktop wireplumber[1892]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x56162d82c080> setting route(analog-input-linein) on for device(alsa_card.pci-0000_00_04.0)(<WpDevice:
+                                                        Object: size 160, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                          Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                            Object: size 64, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                              Prop: key Spa:Pod:Object:Param:Props:channelVolumes (65544), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+08:42:21.449316 lab-desktop wireplumber[1892]: spa.alsa: Hardware volume ranges from -125.00 dB to 0.00 dB.
+08:42:21.449321 lab-desktop wireplumber[1892]: spa.alsa: Fixing base volume to 0.00 dB
+08:42:21.449323 lab-desktop wireplumber[1892]: spa.alsa: Using hardware volume control. Hardware dB scale supported.
+08:42:21.449327 lab-desktop wireplumber[1892]: spa.alsa: Activating path analog-output-lineout
+08:42:21.449343 lab-desktop wireplumber[1892]: spa.alsa: Set hardware volume: min:41287 max:41287
+08:42:21.449348 lab-desktop wireplumber[1892]: spa.alsa: device analog-stereo volume changed
+08:42:21.449410 lab-desktop wireplumber[1892]: spa.alsa: Hardware volume ranges from -74.00 dB to 0.00 dB.
+08:42:21.449412 lab-desktop wireplumber[1892]: spa.alsa: Fixing base volume to 0.00 dB
+08:42:21.449414 lab-desktop wireplumber[1892]: spa.alsa: Using hardware volume control. Hardware dB scale supported.
+08:42:21.449417 lab-desktop wireplumber[1892]: spa.alsa: Activating path analog-input-linein
+08:42:21.449450 lab-desktop wireplumber[1892]: spa.alsa: Set hardware volume: min:65536 max:65536
+08:42:21.450207 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:225:chunk]: <WpDevice:50:0x56162d831af0> new active route(analog-input-linein) found of device(alsa_card.pci-0000_00_04.0)
+08:42:21.450228 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:225:chunk]: <WpDevice:50:0x56162d831af0> new active route(analog-output-lineout) found of device(alsa_card.pci-0000_00_04.0)
+08:42:21.450559 lab-desktop wireplumber[1892]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x56162d7f0d50> setting route(analog-output-lineout) on for device(alsa_card.pci-0000_00_04.0)(<WpDevic
+                                                        Object: size 216, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                          Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                            Object: size 120, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                              Prop: key Spa:Pod:Object:Param:Props:channelVolumes (65544), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+08:42:21.450581 lab-desktop wireplumber[1892]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x56162d978fa0> setting route(analog-input-linein) on for device(alsa_card.pci-0000_00_04.0)(<WpDevice:
+                                                        Object: size 160, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                          Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                            Object: size 64, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                              Prop: key Spa:Pod:Object:Param:Props:channelVolumes (65544), flags 00000000
+                                                          Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+08:42:21.450848 lab-desktop wireplumber[1892]: spa.alsa: Set hardware volume: min:41287 max:41287
+08:42:21.451517 lab-desktop wireplumber[1892]: spa.alsa: Set hardware volume: min:65536 max:65536
+08:42:21.456623 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:237:chunk]: <WpDevice:50:0x56162d831af0> storing route(analog-output-lineout) props of device(alsa_card.pci-0000_00_04.0)
+08:42:21.456905 lab-desktop wireplumber[1892]: I s-device [state-routes.lua:237:chunk]: <WpDevice:50:0x56162d831af0> storing route(analog-output-lineout) props of device(alsa_card.pci-0000_00_04.0)
+08:42:22.457434 lab-desktop wireplumber[1892]: wp-state: <WpState:0x56162d7c3690> saving state into /home/teste/.local/state/wireplumber/default-routes
+08:43:36.293560 lab-desktop wireplumber[1892]: m-portal-permissionstore: <WpPortalPermissionStorePlugin:0x56162d76db20> Lookup: No entry for camera (org.freedesktop.portal.Error.NotFound)

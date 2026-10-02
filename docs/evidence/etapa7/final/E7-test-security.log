@@ -1,0 +1,42 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: instalar luma-firewall
+PASSOU: ufw ativo após instalar luma-firewall
+PASSOU: política padrão: entrada bloqueada
+PASSOU: serviço de política não roda de novo
+PASSOU: serviço local responde dentro da VM
+PASSOU: porta 8080 bloqueada de fora
+PASSOU: controle: com regra temporária a porta abre (bloqueio vinha do firewall)
+PASSOU: regra temporária removida: porta volta a bloquear
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+[lab] SSH disponível
+PASSOU: firewall com regras ativas após reinício
+PASSOU: sem gravação em /etc
+PASSOU: sem gravação em /usr
+PASSOU: sudo negado para usuário comum
+PASSOU: parar serviço do sistema negado (polkit)
+PASSOU: desativar firewall negado
+PASSOU: instalar pacote negado sem autenticação
+PASSOU: controle: repositório com chave confiável instala
+PASSOU: chave não confiável rejeitada
+PASSOU: índice adulterado rejeitado
+PASSOU: apt-secure: nenhuma fonte com trusted=yes/allow-insecure
+PASSOU: pacote em configuração (half-configured) antes do corte
+2026/10/01 08:09:17 socat[896] E read(5, 0x5a013da89000, 8192): Connection reset by peer
+[lab] VM encerrada à força
+PASSOU: energia cortada durante a configuração do pacote
+[lab] SSH disponível
+PASSOU: sistema volta a iniciar após o corte
+PASSOU: falha induzida: dpkg --audit aponta o pacote inconsistente
+PASSOU: procedimento de recuperação executado (docs/usuario/recuperacao.md)
+PASSOU: pacote configurado após recuperação
+PASSOU: dpkg --audit limpo após recuperação
+PASSOU: apt-get check sem erros (root)
+PASSOU: sessão gráfica funcional após recuperação
+captura: E7-04-apos-recuperacao.png
+PASSOU: AppArmor ativo: 17 perfis em modo enforce
+info: apps Flatpak instalados: 0
+info: apps nativos (APT) NÃO são confinados por padrão; ver docs/security/modelo-de-ameacas.md
+falhas: 0
+exit=0

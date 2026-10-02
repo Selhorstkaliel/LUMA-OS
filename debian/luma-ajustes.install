@@ -1,0 +1,3 @@
+apps/ajustes/luma_ajustes usr/share/luma-ajustes/
+apps/ajustes/data/luma-ajustes usr/bin/
+apps/ajustes/data/org.luma.ajustes.desktop usr/share/applications/

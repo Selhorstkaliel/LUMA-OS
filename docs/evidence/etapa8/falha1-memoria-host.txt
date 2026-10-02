@@ -1,0 +1,1 @@
+Incidente 2026-09-30 18:48–19:22: test-iso.sh travou. vmmemWSL com 5149 MB privados e só 255 MB residentes (Windows paginou a VM do WSL; RAM livre do host ~1 GiB). WSL não abria novas sessões (Wsl/Service/0x8007274c). Recuperado com wsl --shutdown; teste repetido com VM_RAM_MB=2560.

@@ -1,0 +1,15 @@
+ 
+  
+
+
+┌───────────────────────┤ [!!] Select a language ├────────────────────────┐│ │ │ Choose the language to be used for the installation process. The │ │ selected language will also be the default language for the installed │ │ system. │ 
+│ │ 
+│ Language: │ 
+│ │ 
+│ C - No localization │ 
+│ English - English │ 
+│ │ 
+│ <Go Back> │ 
+│ │ 
+└─────────────────────────────────────────────────────────────────────────┘ 
+ <Tab> moves; <Space> selects; <Enter> activates buttons[ (1*installer) 2 shell 3 shell 4- log ][ Sep 30 17:17 ][ (1*installer) 2 shell 3 shell 4- log ][ Sep 30 17:18 ]

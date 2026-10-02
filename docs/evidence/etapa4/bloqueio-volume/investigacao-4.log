@@ -1,0 +1,74 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+antes de desligar: Volume: 0.63 | channelVolumes":[0.250035, 0.250035]
+[lab] desligamento solicitado via ACPI
+[lab] VM desligada
+[lab] SSH disponível
+após login gráfico: Volume: 0.40 | channelVolumes":[0.064563, 0.064563]
+--- processos de áudio e início
+teste    qui out  1 08:29:25 2026 /usr/bin/pipewire
+teste    qui out  1 08:29:25 2026 /usr/bin/pipewire -c filter-chain.conf
+teste    qui out  1 08:29:25 2026 /usr/bin/wireplumber
+teste    qui out  1 08:29:25 2026 /usr/bin/pipewire-pulse
+--- journal wireplumber (rotas/estado)
+out 01 08:29:27.011669 lab-desktop wireplumber[878]: pw.metadata: 0x55c5ec55b570: add id:0 key:device.restore-routes type:Spa:String:JSON value:{
+                                                         description = "Whether to restore device routes or not"
+out 01 08:29:27.011674 lab-desktop wireplumber[878]: pw.metadata: 0x55c5ec55b570: add id:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:{
+out 01 08:29:27.011678 lab-desktop wireplumber[878]: pw.metadata: 0x55c5ec55b570: add id:0 key:device.routes.default-source-volume type:Spa:String:JSON value:{
+out 01 08:29:27.012271 lab-desktop wireplumber[878]: pw.metadata: 0x55c5ec59d180: add id:0 key:device.restore-routes type:Spa:String:JSON value:true
+out 01 08:29:27.012274 lab-desktop wireplumber[878]: pw.metadata: 0x55c5ec59d180: add id:0 key:device.routes.default-sink-volume type:Spa:String:JSON value:0.064
+out 01 08:29:27.012278 lab-desktop wireplumber[878]: pw.metadata: 0x55c5ec59d180: add id:0 key:device.routes.default-source-volume type:Spa:String:JSON value:1.0
+out 01 08:29:27.038865 lab-desktop wireplumber[878]: wp-plugin: <WpLuaScript:0x55c5ec5e19a0> enabling plugin 'script:device/select-routes.lua'
+out 01 08:29:27.040132 lab-desktop wireplumber[878]: wp-plugin: <WpLuaScript:0x55c5ec60fdd0> enabling plugin 'script:device/apply-routes.lua'
+out 01 08:29:27.040595 lab-desktop wireplumber[878]: wp-plugin: <WpLuaScript:0x55c5ec5fb9a0> enabling plugin 'script:device/find-best-routes.lua'
+out 01 08:29:27.041243 lab-desktop wireplumber[878]: wp-plugin: <WpLuaScript:0x55c5ec618460> enabling plugin 'script:device/state-routes.lua'
+out 01 08:29:27.089729 lab-desktop wireplumber[878]: s-monitors: Enabling the use of ACP on alsa_card.pci-0000_00_04.0
+out 01 08:29:27.124362 lab-desktop wireplumber[878]: spa.alsa: Loading path config: /usr/share/alsa-card-profile/mixer/paths/analog-output-lineout.conf
+out 01 08:29:27.215392 lab-desktop wireplumber[878]: I s-device [find-best-profile.lua:69:chunk]: <WpDevice:51:0x55c5ec7ffa90> Found best profile 'output:analog-stereo+input:analog-stereo' (1) for device 'alsa_card.pci-0000_00_04.
+out 01 08:29:27.215686 lab-desktop wireplumber[878]: I s-device [apply-profile.lua:47:chunk]: <WpDevice:51:0x55c5ec7ffa90> Setting profile output:analog-stereo+input:analog-stereo on alsa_card.pci-0000_00_04.0
+out 01 08:29:27.216161 lab-desktop wireplumber[878]: spa.alsa: Activating path analog-output-lineout
+out 01 08:29:27.219193 lab-desktop wireplumber[878]: I s-device [select-routes.lua:92:chunk]: <WpDevice:51:0x55c5ec7ffa90> restore routes for profile(output:analog-stereo+input:analog-stereo) of device(alsa_card.pci-0000_00_04.0)
+out 01 08:29:27.219553 lab-desktop wireplumber[878]: I s-device [state-routes.lua:60:chunk]: <WpDevice:51:0x55c5ec7ffa90> restoring route for device ID 0
+out 01 08:29:27.219560 lab-desktop wireplumber[878]: I s-device [state-routes.lua:60:chunk]: <WpDevice:51:0x55c5ec7ffa90> restoring route for device ID 3
+out 01 08:29:27.219564 lab-desktop wireplumber[878]: I s-device [state-routes.lua:81:chunk]: <WpDevice:51:0x55c5ec7ffa90> found stored route: analog-output-lineout
+out 01 08:29:27.219987 lab-desktop wireplumber[878]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x55c5ec84b620> setting route(analog-output-lineout) on for device(alsa_card.pci-0000_00_04.0)(<WpDevice:0x55c5ec7ffa90>):
+                                                       Object: size 216, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                           Object: size 120, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+out 01 08:29:27.220022 lab-desktop wireplumber[878]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x55c5ec87f410> setting route(analog-input-linein) on for device(alsa_card.pci-0000_00_04.0)(<WpDevice:0x55c5ec7ffa90>):
+                                                       Object: size 160, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                           Object: size 64, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+out 01 08:29:27.220242 lab-desktop wireplumber[878]: spa.alsa: Activating path analog-output-lineout
+out 01 08:29:27.220261 lab-desktop wireplumber[878]: spa.alsa: card port changed from analog-input-linein to analog-output-lineout
+out 01 08:29:27.221431 lab-desktop wireplumber[878]: I s-device [state-routes.lua:225:chunk]: <WpDevice:51:0x55c5ec7ffa90> new active route(analog-input-linein) found of device(alsa_card.pci-0000_00_04.0)
+out 01 08:29:27.221456 lab-desktop wireplumber[878]: I s-device [state-routes.lua:225:chunk]: <WpDevice:51:0x55c5ec7ffa90> new active route(analog-output-lineout) found of device(alsa_card.pci-0000_00_04.0)
+out 01 08:29:27.222092 lab-desktop wireplumber[878]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x55c5ec828560> setting route(analog-output-lineout) on for device(alsa_card.pci-0000_00_04.0)(<WpDevice:0x55c5ec7ffa90>):
+                                                       Object: size 216, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                           Object: size 120, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+out 01 08:29:27.222164 lab-desktop wireplumber[878]: D s-device [apply-routes.lua:89:chunk]: <WpSpaPod:0x55c5ec882fb0> setting route(analog-input-linein) on for device(alsa_card.pci-0000_00_04.0)(<WpDevice:0x55c5ec7ffa90>):
+                                                       Object: size 160, type Spa:Pod:Object:Param:Route (262153), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:props (10), flags 00000000
+                                                           Object: size 64, type Spa:Pod:Object:Param:Props (262146), id Spa:Enum:ParamId:Route (13)
+                                                         Prop: key Spa:Pod:Object:Param:Route:index (1), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:save (13), flags 00000000
+                                                         Prop: key Spa:Pod:Object:Param:Route:device (3), flags 00000000
+out 01 08:29:27.236611 lab-desktop wireplumber[878]: I s-device [state-routes.lua:237:chunk]: <WpDevice:51:0x55c5ec7ffa90> storing route(analog-output-lineout) props of device(alsa_card.pci-0000_00_04.0)
+out 01 08:29:27.237089 lab-desktop wireplumber[878]: I s-device [state-routes.lua:237:chunk]: <WpDevice:51:0x55c5ec7ffa90> storing route(analog-output-lineout) props of device(alsa_card.pci-0000_00_04.0)
+out 01 08:29:27.282285 lab-desktop wireplumber[878]: I s-device [state-routes.lua:237:chunk]: <WpDevice:51:0x55c5ec7ffa90> storing route(analog-output-lineout) props of device(alsa_card.pci-0000_00_04.0)
+out 01 08:29:28.078355 lab-desktop wireplumber[878]: I wp-state [state.c:338:wp_state_save]: <WpState:0x55c5ec65ed20> saving state into /home/teste/.local/state/wireplumber/stream-properties
+out 01 08:29:28.282805 lab-desktop wireplumber[878]: I wp-state [state.c:338:wp_state_save]: <WpState:0x55c5ec61c2b0> saving state into /home/teste/.local/state/wireplumber/default-routes
+out 01 08:29:40.760934 lab-desktop wireplumber[878]: I wp-state [state.c:338:wp_state_save]: <WpState:0x55c5ec65ed20> saving state into /home/teste/.local/state/wireplumber/stream-properties
+[lab] desligamento solicitado via SSH
+[lab] VM desligada
+exit=0

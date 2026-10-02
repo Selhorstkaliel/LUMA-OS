@@ -1,0 +1,38 @@
+NAME                                           SIZE TYPE  FSTYPE      MOUNTPOINTS
+vda                                             32G disk              
+├─vda1                                         300M part  vfat        /boot/efi
+├─vda2                                        26,1G part  crypto_LUKS 
+│ └─luks-f71aaa95-1cd7-4fa6-8cb2-a738bc7cd992 26,1G crypt ext4        /
+└─vda3                                         5,6G part  crypto_LUKS 
+  └─luks-3e2359b6-a036-4d2e-b8a4-ebb3b713dfe4  5,6G crypt swap        [SWAP]
+BOOT_IMAGE=/boot/vmlinuz-6.12.111+deb13-amd64 root=UUID=25b11d5d-91fd-4a34-a15d-5d1f70779db5 ro quiet cryptdevice=UUID=f71aaa95-1cd7-4fa6-8cb2-a738bc7cd992:luks-f71aaa95-1cd7-4fa6-8cb2-a738bc7cd992 root=/dev/mapper/luks-f71aaa95-1cd7-4fa6-8cb2-a738bc7cd992 splash resume=/dev/mapper/luks-3e2359b6-a036-4d2e-b8a4-ebb3b713dfe4
+uid=1000(anat) gid=1000(anat) grupos=1000(anat),24(cdrom),25(floppy),27(sudo),30(dip),44(video),46(plugdev),101(netdev),102(scanner),107(bluetooth),109(lpadmin)
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+/boot/efi/EFI/boot:
+bootx64.efi
+grubx64.efi
+mmx64.efi
+
+/boot/efi/EFI/Debian:
+BOOTX64.CSV
+fbx64.efi
+grub.cfg
+grubx64.efi
+mmx64.efi
+shimx64.efi
+# See https://wiki.debian.org/SourcesList for more information.
+deb http://deb.debian.org/debian trixie main non-free-firmware
+deb-src http://deb.debian.org/debian trixie main non-free-firmware
+
+deb http://deb.debian.org/debian trixie-updates main non-free-firmware
+deb-src http://deb.debian.org/debian trixie-updates main non-free-firmware
+
+deb http://security.debian.org/debian-security/ trixie-security main non-free-firmware
+deb-src http://security.debian.org/debian-security/ trixie-security main non-free-firmware
+
+# Backports allow you to install newer versions of software made available for this release
+deb http://deb.debian.org/debian trixie-backports main non-free-firmware
+deb-src http://deb.debian.org/debian trixie-backports main non-free-firmware

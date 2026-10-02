@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	theme/build.sh $(CURDIR)/build/theme-root
+
+override_dh_auto_test:
+	python3 -B theme/tests/test_theme.py
+	python3 -B apps/ajustes/tests/test_core.py
+
+override_dh_auto_clean:
+	rm -rf build
+
+override_dh_installsystemd:
+	dh_installsystemd
+	dh_installsystemd -pluma-firewall --name=luma-firewall-setup
+
+# Componentes do live-config e auxiliares do instalador são executados: precisam do bit de execução
+execute_after_dh_fixperms:
+	chmod 755 debian/luma-live/usr/lib/live/config/2000-luma-live-session debian/luma-live/usr/libexec/luma-live/luma-efi-fallback debian/luma-live/usr/libexec/luma-live/luma-installer-cleanup

@@ -1,0 +1,47 @@
+# Marca do instalador Luma. @LUMA_VERSION@ é preenchido por scripts/build/build-iso.sh;
+# luma-logo.svg é copiado de theme/icons/ no mesmo passo.
+---
+componentName:   luma
+
+# false: usa o logotipo e o texto "Bem-vindo ao instalador do <produto>"
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 800px,580px
+windowPlacement: center
+
+strings:
+    productName:         Luma
+    shortProductName:    Luma
+    version:             "@LUMA_VERSION@"
+    shortVersion:        "@LUMA_VERSION@"
+    versionedName:       Luma @LUMA_VERSION@
+    shortVersionedName:  Luma @LUMA_VERSION@
+    # Mantido "Debian": o shim/GRUB assinados pelo Debian procuram a configuração em EFI/debian.
+    # Trocar este nome quebraria a cadeia de Secure Boot validada nas etapas 8 e 9.
+    bootloaderEntryName: Debian
+    # O projeto ainda não tem site; os links ficam ocultos em modules/welcome.conf.
+    productUrl:          https://www.debian.org
+    supportUrl:          https://www.debian.org/support
+    knownIssuesUrl:      https://bugs.debian.org
+    releaseNotesUrl:     https://www.debian.org/releases/trixie/releasenotes
+    donateUrl:           https://www.debian.org
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "luma-logo.svg"
+    productIcon:         "luma-logo.svg"
+    productWelcome:      "luma-logo.svg"
+
+slideshow:               "show.qml"
+slideshowAPI: 2
+
+# Cores do tema escuro do Luma (docs/design/luma-visual-spec.md)
+style:
+   SidebarBackground:        "#131A36"
+   SidebarText:              "#FFFFFF"
+   SidebarTextCurrent:       "#FFFFFF"
+   SidebarBackgroundCurrent: "#1E3E80"

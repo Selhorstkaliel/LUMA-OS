@@ -1,0 +1,38 @@
+[lab] snapshot base-limpa restaurado
+[lab] SSH disponível
+PASSOU: cenário de atualização: flatpak 1.16.6-1~deb13u2 instalado
+info: 1.3.1
+discover 6.3.6
+PASSOU: sessão remota: instalação negada pelo polkit
+captura: E5-02-polkit.png
+FALHOU: diálogo polkit não apareceu
+FALHOU: instalar kpat
+captura: E5-03-instalado.png
+FALHOU: abrir kpat
+captura: E5-04-app-aberto.png
+PASSOU: Discover em execução
+captura: E5-05-discover.png
+info: sem novo diálogo polkit (autorização mantida)
+FALHOU: atualização não aplicada
+captura: E5-06-atualizado.png
+info: sem novo diálogo polkit (autorização mantida)
+PASSOU: remover kpat
+info: text/plain → libreoffice-writer.desktop
+PASSOU: associação text/plain → libreoffice-writer.desktop
+FALHOU: abrir documento (janela ativa: '')
+FALHOU: salvar no mesmo caminho (esperado 'linha original editado', observado 'linha original')
+captura: E5-07-documento.png
+captura: E5-08-salvar-como.png
+FALHOU: salvar como novo nome com espaço
+PASSOU: associação application/pdf → gimp.desktop
+PASSOU: associação image/png → display-im7.q16.desktop
+PASSOU: associação inode/directory → kfmclient_dir.desktop
+PASSOU: home do usuário com modo 700
+PASSOU: outro usuário não lê o documento
+PASSOU: flatpak instalado
+PASSOU: backend Flatpak do Discover
+PASSOU: portal KDE disponível
+PASSOU: serviço de portais ativo na sessão
+info: remotos flatpak:  
+falhas: 7
+exit=1

@@ -1,0 +1,5 @@
+PASSOU: qemu ausente (exit 2) :: [lab] ERRO: dependências ausentes: /nao/existe/qemu. Instale com: apt-get install qemu-system-x86 qemu-utils ovmf xorriso gnupg curl whois openssh-client socat
+PASSOU: OVMF ausente (exit 2) :: [lab] ERRO: firmware OVMF não encontrado em /nao/existe (pacote ovmf)
+PASSOU: xorriso ausente (exit 2) :: [lab] ERRO: dependências ausentes: /nao/existe/xorriso. Instale com: apt-get install qemu-system-x86 qemu-utils ovmf xorriso gnupg curl whois openssh-client socat
+PASSOU: ambiente completo (exit 0) :: [lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+PASSOU: comando inválido (exit 64) ::   status

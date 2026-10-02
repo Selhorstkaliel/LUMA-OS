@@ -1,0 +1,18 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-2.0-or-later
+# Aplica UMA vez a política padrão do Luma: entrada bloqueada, saída liberada (ufw).
+# Se o administrador já ativou o ufw com regras próprias, nada é alterado.
+# Executado por luma-firewall-setup.service (também no primeiro boot de uma imagem live/instalada).
+set -eu
+export LANG=C
+STAMP=/var/lib/luma-firewall/aplicado
+if ufw status | grep -q '^Status: active'; then
+	echo "luma-firewall: ufw já ativo; política do administrador mantida"
+else
+	ufw default deny incoming
+	ufw default allow outgoing
+	ufw --force enable
+	echo "luma-firewall: política padrão aplicada (entrada bloqueada, saída liberada)"
+fi
+mkdir -p "$(dirname "$STAMP")"
+touch "$STAMP"

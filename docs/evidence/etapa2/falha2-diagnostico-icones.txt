@@ -1,0 +1,4 @@
+LAB=/mnt/c/Users/kali/Estudo-e-Projetos/LUMA-OS/scripts/lab/lab.sh
+u() { VM_USER=teste "$LAB" ssh ". /usr/local/bin/luma-lab-sessenv; $1"; }
+echo "== escuro"; u 'luma-appearance escuro; echo rc=$?; grep -A1 "^\[Icons\]" ~/.config/kdeglobals || echo "(sem grupo Icons)"'
+echo "== claro"; u 'luma-appearance claro; echo rc=$?; grep -A1 "^\[Icons\]" ~/.config/kdeglobals || echo "(sem grupo Icons)"; kreadconfig6 --file kdeglobals --group Icons --key Theme --default VAZIO'

@@ -1,0 +1,11 @@
+[lab] dependências OK (QEMU emulator version 10.0.13 (Debian 1:10.0.13+ds-0+deb13u1))
+[lab] SHA256SUMS assinado por DF9B9C49EAA9298432589D76DA87E80D6294BE9B
+[lab] debian-13.7.0-amd64-netinst.iso já presente e íntegra; download ignorado
+[lab] ISO de instalação: /srv/luma-lab/iso/luma-lab-install-lab-desktop.iso
+PASSOU: segunda execução não reconstruiu a ISO
+PASSOU: senha só como hash SHA-512
+PASSOU: chave pública injetada
+PASSOU: senha em claro ausente
+PASSOU: entrada GRUB automática é a primeira
+PASSOU: imagem de boot UEFI preservada
+permissões ISO: 600
