@@ -13,8 +13,18 @@ Atualizado: 2026-10-01.
 | 7 — Segurança e atualização | **APROVADA** — E7-01..05 PASSOU; `luma-firewall`; execução limpa 29/29 com 0.6.1 (`docs/evidence/etapa7/final/`) |
 | 8 — Imagem live | **APROVADA** — ISO 0.6.1 (visual dos mockups): boot com Secure Boot, 19/19; repetido na ISO 0.7.2: 20/20 (`docs/evidence/etapa8/iso-0.7.2/`); diferenças entre builds explicadas; sem alegação de reprodutibilidade bit a bit |
 | 9 — Instalação e recuperação | **APROVADA (na VM)** — ISO 0.7.2: normal 66/66 e disco cifrado 42/42; instalação sem internet, boot sem ISO com Secure Boot, login, atualização, recuperação pela ISO. Risco aberto: 1 fechamento do Calamares não reproduzido. Não testado: dual boot, particionamento manual, hardware real (ver TESTS.md). Não usar o instalador fora de VM por enquanto |
-| 6 — Aplicativos Windows | NÃO INICIADA — escopo redefinido em duas camadas (decisão 0007). Camada 1 (melhor esforço) pode começar; camada 2 BLOQUEADA: três apps Windows não definidos |
+| 6 — Aplicativos Windows | **EM ANDAMENTO, SUSPENSA em 2026-10-01** (usuário pediu arquivar o projeto no pendrive) — decisões do usuário registradas (só Wine do Debian; `i386` habilitado; Notepad++ 8.7, 7-Zip 24.09, IrfanView 4.75 no lugar da 4.67); pacote `luma-windows` 0.8.0 escrito; critérios em TESTS.md ainda PENDENTES. Ver "Etapa 6: onde parou" |
 | demais | NÃO INICIADA |
+
+## Arquivamento no pendrive: pedido, ainda NÃO feito (2026-10-01)
+O usuário pediu mover o repositório e o laboratório (distribuição WSL "Debian" inteira, ~35 GB usados, disco virtual de 59 GB em `C:`) para o pendrive e apagar do PC. A primeira tentativa falhou: o pendrive (E:, NTFS, 57,6 GB) sumiu do sistema cerca de 1 minuto depois do início da cópia (erro 0x80070015, dispositivo não pronto). **Nada foi apagado do PC.** Só apagar depois de cópia conferida.
+
+## Etapa 6: onde parou
+- Feito: critérios registrados em TESTS.md; instaladores oficiais baixados (em `/srv/luma-lab/fixtures/windows` dentro do laboratório) com SHA-256 conferido; pacote `luma-windows` (lançador, associação de `.exe`/`.msi`, aviso de primeiro uso, recusa como root, erro para arquivo inválido) construído e instalado na VM.
+- Observado na VM, ainda sem teste formal: associações de `.exe`/`.msi` apontam para o lançador; chamada como root é recusada (código 77); arquivo inválido mostra erro em português; duplo clique no Dolphin passa antes pela pergunta do KDE "Executar / Cancelar" (padrão do KDE para executáveis, não alterado) e depois mostra o aviso do Luma.
+- **Problema em aberto:** na primeira execução, a criação da pasta do Wine (`wineboot -u`) falhou na VM com "boot event wait timed out" e "could not load kernel32.dll"; o lançador mostrou "Não foi possível preparar a camada de compatibilidade". Causa não investigada (suspeita: lentidão da VM durante a criação). Nenhum dos três aplicativos chegou a ser instalado.
+- Falta: resolver o problema acima; testes da camada 1 e da camada 2; ISO com Wine + `i386` e medição do aumento; documentação do usuário.
+- Wine + `i386` na VM: 293 pacotes, 378 MB de download, 2,0 GB em disco.
 
 ## Como operar o laboratório
 Dentro do WSL (`wsl -d Debian -u root`), no repositório em `/mnt/c/Users/kali/Estudo-e-Projetos/LUMA-OS`:

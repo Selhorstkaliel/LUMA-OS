@@ -1,6 +1,8 @@
 # 0007 — Compatibilidade com aplicativos Windows
 
-Status: aceita pelo usuário para a etapa 6, 2026-10-01. **Pendente do usuário: os três aplicativos e versões; origem do Bottles (ver abaixo).**
+Status: aceita pelo usuário para a etapa 6, 2026-10-01.
+
+Decisões do usuário (2026-10-01): **só o Wine do Debian, sem Bottles**; **`i386` habilitado**, medindo o aumento da ISO; aplicativos da camada 2: Notepad++ 8.7 x64 (`.exe`), 7-Zip 24.09 x64 (`.msi`), IrfanView 4.67 32 bits (`.exe`) — a 4.67 não existe mais no servidor oficial, usada a 4.75. As "pendências" abaixo ficam resolvidas por estas decisões.
 
 ## Contexto
 O plano original limita a etapa 6 a três aplicativos Windows definidos e proíbe prometer execução universal. O usuário pediu que o sistema tente abrir qualquer aplicativo Windows, mantendo a garantia só para o que for testado.

@@ -235,3 +235,11 @@ Para cada um: instalar, abrir, função principal, desinstalar. Só o que passar
 | E6-13 | IrfanView 4.67, 32 bits, instalador `.exe` | Abrir uma imagem e converter para outro formato | PENDENTE |
 
 Fora do critério: jogos e aplicativos que dependem de GPU, anti-cheat, drivers, aplicativos da Microsoft Store.
+
+Situação em 2026-10-01: etapa suspensa antes dos testes (usuário pediu arquivar o projeto no pendrive); todos os critérios continuam PENDENTES. IrfanView 4.67 não existe mais no servidor oficial (`irfanview.info/files/` só entrega 4.75 e 4.76); escolhida a 4.75, a mais próxima.
+
+| Instalador | Origem | SHA-256 |
+|---|---|---|
+| `npp.8.7.Installer.x64.exe` (6 637 056 bytes) | github.com/notepad-plus-plus/notepad-plus-plus, release v8.7 | `23d8e9bde3d08df26626af9978a09f8837d7162fd1accf563248d0eef89006fe` (confere com `npp.8.7.checksums.sha256` da release) |
+| `7z2409-x64.msi` (1 987 584 bytes) | www.7-zip.org/a/ | `ec6af1ea0367d16dde6639a89a080a524cebc4d4bedfe00ed0cac4b865a918d8` (o site não publica checksum) |
+| `iview475_setup.exe` (3 607 168 bytes) | www.irfanview.info/files/ | `e5dc5357bdda7410feb1893fa24a5c14b2ee1c003e4eaf35c24d2cbcc077eb24` (checksum da 4.75 não está mais publicado; a 4.76 confere com o publicado) |
