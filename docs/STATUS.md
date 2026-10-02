@@ -27,7 +27,7 @@ Dentro do WSL (`wsl -d Debian -u root`), no repositório em `/mnt/c/Users/kali/E
 - RAM do host (7,7 GiB): WSL limitado a 4,6 GB, VM com 2,5–2,8 GiB; uma VM por vez. Com Edge/Discord/VS Code abertos sobram < 0,5 GiB e o WSL já travou uma vez (etapa 8, falha1).
 - Sem aceleração 3D na VM: efeitos/FPS não medidos.
 - Plasma 6.3: `plasma-apply-lookandfeel` não aplica esquema de cores/ícones (também com Breeze Dark) → contornado por `luma-appearance`.
-- Nenhum commit git feito; aguardando autorização do usuário.
+- Repositório privado no GitHub: `Selhorstkaliel/LUMA-OS` (primeiro commit e push em 2026-10-01, a pedido do usuário). Novos pushes continuam dependendo de pedido do usuário.
 - Teclado virtual do laboratório (QMP) perde ou repete teclas com o host carregado: não rodar testes de tela logo após uma build; `test-install.sh` confere o indicador do instalador e redigita.
 - Tarefas em segundo plano têm limite de 2 h: build da ISO (~45 min) e teste de instalação (~55 min; `ENCRYPT=1` ~45 min) em tarefas separadas, com `scripts/lab/tests/run-logged.sh LOG TESTE [VAR=valor]`.
 
